@@ -65,7 +65,7 @@
 							</IBGRegionPanel>
 							<IBGButton name="OKBtn" text="$2054" size="72,24" margin="0, 46, 17, 15" tabOrder="10" config="button" dock="DOCK_RIGHT"/>
 							<!-- <IBGButton name="OKBtn" text="$2054" size="72,24" margin="0, 65, 17, 15" tabOrder="10" config="button" dock="DOCK_RIGHT"/> -->
-						   <IBGStaticEx name="Versions" autoCalcHeight="true" autoCalcWidth="true" textClr="0x666666" text="Translation By zloiSupport (12-May-2020)" margin="0, 66, 150, 15" dock="DOCK_RIGHT"/>
+						   <IBGStaticEx name="Versions" autoCalcHeight="true" autoCalcWidth="true" textClr="0x666666" text="Translation By ZloiSupport (13-Jun-2020)" margin="0, 66, 150, 15" dock="DOCK_RIGHT"/>
 
 						</Children>
 					</IBGRegionPanel>
