@@ -1,5 +1,5 @@
 <UI version="1.0">
-	<IBGCommonWin name="unlockDialog" rect="0,0,500,400" sysBtnConfig="mainPanel_CapButton" selfDrawCaption="true" unvariedSize="true" showCloseButton="true" showMinButton="true" showMaxButton="false" config="gradualWin">
+	<IBGCommonWin name="unlockDialog" rect="0,0,750,450" sysBtnConfig="mainPanel_CapButton" selfDrawCaption="true" unvariedSize="true" showCloseButton="true" showMinButton="true" showMaxButton="false" config="gradualWin">
 		<Children>
 			<IBGRegionPanel sizeAsParent="true">
 				<Children>
