@@ -177,8 +177,6 @@
   <String id="IDS_SHARE_CREATING_LINK" value="正在创建分享链接，请稍候..." />
   <String id="IDS_SHARE_COPY_LINK_SUCCESS" value="复制成功" />
   <String id="IDS_SHARE_LINK_SHARE" value="通过QQ、微信、微博、QQ空间等分享给好友吧" />
-  <String id="IDS_SHARE_PRIVATELINK_WITH_NO_PWD_DESC" value="无需提取码，仅拥有链接的用户可以查看" />
-  <String id="IDS_SHARE_PRIVATELINK_WITH_PWD_DESC" value="仅限拥有提取码者可查看，更加隐私安全" />
   <String id="IDS_SHARE_TABBUTTON_LINKSHARE" value="私密链接分享" />
   <String id="IDS_SHARE_TABBUTTON_MEESAGESHARE" value="发给好友" />
   <String id="IDS_SHARE_LINK_TYPE_PRIVATE_WITH_PWD" value="有提取码" />
@@ -194,7 +192,15 @@
   <String id="IDS_SHARE_PUBLIC_LINK_EXPIRE_7DAYS" value="7天" />
   <String id="IDS_SHARE_PUBLIC_LINK_EXPIRE_1DAYS" value="1天" />
   <String id="IDS_SHARE_PUBLIC_LINK_DAYS_EXPIRE" value="链接%d天后失效" />
-  
+
+  <String id="IDS_SHARE_LINK_TYPE_SYSTEM_GENERATED_PWD" value="系统随机生成提取码" />
+  <String id="IDS_SHARE_LINK_TYPE_SYSTEM_GENERATED_PWD_DECS" value="每次自动随机生成新提取码" />
+  <String id="IDS_SHARE_LINK_TYPE_USER_DEFINED_PWD" value="自定义提取码" />
+  <String id="IDS_SHARE_LINK_TYPE_USER_DEFINED_PWD_WARNNING" value="重复使用同一提取码有泄露风险，请谨慎操作" />
+  <String id="IDS_SHARE_LINK_TYPE_USER_DEFINED_PWD_DECS" value="支持4位字母或数字" />
+  <String id="IDS_SHARE_LINK_TYPE_PRIVATE_WITH_NO_PWD_WARNNING" value="无需提取码即可查看，公司文件和私密文件建议勿选此项" />
+  <String id="IDS_SHARE_LINK_TYPE_USER_DEFINED_PWD_PLEASE_INPUT" value="仅可输入4位字母或数字" /> 
+    
   <!-- 转存-->
   <String id="IDS_TRANSFER_ERR_DEFAULT" value="保存失败，错误码：%d" />
   <String id="IDS_TRANSFER_ERR_FILE_NOT_EXIST" value="文件不存在" />

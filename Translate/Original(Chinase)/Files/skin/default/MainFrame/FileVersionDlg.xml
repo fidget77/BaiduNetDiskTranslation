@@ -13,7 +13,7 @@
 									</bkground>
 								</Properties>
 							</IBDGuiCell>
-							<IBGStaticEx name="title_name" textClr="0x333333" text="$2593" autoCalcHeight="true" autoCalcWidth="true" margin="7, 9, 0, 10" dock="DOCK_LEFT">
+							<IBGStaticEx name="title_name" textClr="0x333333" text="$2598" autoCalcHeight="true" autoCalcWidth="true" margin="7, 9, 0, 10" dock="DOCK_LEFT">
 							</IBGStaticEx>
 						</Children>
 					</IBGRegionPanel>
@@ -23,7 +23,7 @@
 							<IBGRegionPanel dock="DOCK_FILL" size="526,36" unseen="false" config="fileVerVipTipPanel" margin="0,0,0,0">
 								<Children>
 									<IBGGIFControl name="memberIcon" dock="DOCK_LEFT" margin="14,10,5,10" image="Resource:\\Texture\\Menu\\vip_open.png" size="16, 16"></IBGGIFControl>
-									<IBGStaticEx name="memberTip" textClr="0x333333" autoCalcHeight="true" autoCalcWidth="true" text="$2608" margin="5, 10, 3, 5" dock="DOCK_LEFT"/>
+									<IBGStaticEx name="memberTip" textClr="0x333333" autoCalcHeight="true" autoCalcWidth="true" text="$2613" margin="5, 10, 3, 5" dock="DOCK_LEFT"/>
 								</Children>
 							</IBGRegionPanel>
 						</Children>
@@ -33,7 +33,7 @@
 						<Children>
 							<IBGRegionPanel dock="DOCK_FILL" size="526,36" unseen="false" config="fileVerVipTipPanel" margin="0,0,0,0">
 								<Children>
-									<IBGStaticEx textClr="0x333333" autoCalcHeight="true" autoCalcWidth="true" text="$2610" margin="14, 10, 3, 5" dock="DOCK_LEFT"/>
+									<IBGStaticEx textClr="0x333333" autoCalcHeight="true" autoCalcWidth="true" text="$2615" margin="14, 10, 3, 5" dock="DOCK_LEFT"/>
 								</Children>
 							</IBGRegionPanel>
 						</Children>
@@ -53,7 +53,7 @@
 									<IBGStaticEx name="tipSuffix" autoCalcHeight="true" autoCalcWidth="true" textClr="0xc89443" margin="0, 9, 0, 9" dock="DOCK_LEFT" endEllipsis="true" unseen="true"/>
 								</Children>
 							</IBGRegionPanel>
-							<IBGButton name="closeBtn" config="button" size="75, 24" tabOrder="11" dock="DOCK_RIGHT" margin="0, 7, 10, 4" text="$2600"/>
+							<IBGButton name="closeBtn" config="button" size="75, 24" tabOrder="11" dock="DOCK_RIGHT" margin="0, 7, 10, 4" text="$2605"/>
 						</Children>
 					</IBGRegionPanel>
 					<!-- 历史版本区域 -->

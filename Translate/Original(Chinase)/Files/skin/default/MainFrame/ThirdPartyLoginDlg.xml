@@ -13,9 +13,9 @@
 									</bkground>
 								</Properties>
 							</IBDGuiCell>
-							<IBGStaticEx textClr="0x333333" text="$2415" autoCalcHeight="true" autoCalcWidth="true" margin="7, 9, 0, 5" dock="DOCK_LEFT">
+							<IBGStaticEx textClr="0x333333" text="$2420" autoCalcHeight="true" autoCalcWidth="true" margin="7, 9, 0, 5" dock="DOCK_LEFT">
 							</IBGStaticEx>
-							<IBGButton name="RefreshBtn" toolText="$2422" size="32,20" margin="0, 1, 32, 12" dock="DOCK_RIGHT" unseen="true">
+							<IBGButton name="RefreshBtn" toolText="$2427" size="32,20" margin="0, 1, 32, 12" dock="DOCK_RIGHT" unseen="true">
 								<Properties>
 									<normalDraw>
 										<IBGVeins file="Resource:MainFrame\\LoginDlg\\refreshbtn.png" veinsRect="0,0,31,19" transparent="true" colorize="false"/>
@@ -41,8 +41,8 @@
 										<Children>
 											<IBGStaticEx name="bindedTip" textClr="0x636363" autoCalcHeight="true" autoCalcWidth="true" margin="0, 0, 0, 10" dock="DOCK_TOP"/>
 											<IBGStaticEx name="accountTip" textClr="0x636363" autoCalcHeight="true" autoCalcWidth="true" margin="30, 0, 0, 10" dock="DOCK_TOP"/>
-											<IBGStaticEx textClr="0x636363" text="$2420" autoCalcHeight="true" autoCalcWidth="true" margin="10, 0, 0, 15" dock="DOCK_TOP"/>
-											<IBGButton name="KnownBtn" text="$2421" drawFocus="true" enableFocus="true" size="80,24" margin="30, 0, 60, 0" config="button" dock="DOCK_TOP"/>
+											<IBGStaticEx textClr="0x636363" text="$2425" autoCalcHeight="true" autoCalcWidth="true" margin="10, 0, 0, 15" dock="DOCK_TOP"/>
+											<IBGButton name="KnownBtn" text="$2426" drawFocus="true" enableFocus="true" size="80,24" margin="30, 0, 60, 0" config="button" dock="DOCK_TOP"/>
 										</Children>
 									</IBGRegionPanel>
 								</Children>
@@ -53,7 +53,7 @@
 									<IBGRegionPanel name="loginingContentPanel" size="50,45" margin="265,134,265,193">
 										<Children>
 											<IBGGIFControl name="loadingGif" dock="DOCK_TOP" margin="16,0,16,1" image="Resource:MainFrame\\loading.gif" size="18, 18"></IBGGIFControl>
-											<IBGStaticEx textClr="0x636363" autoCalcHeight="true" autoCalcWidth="true" text="$2406" margin="0, 2, 0, 1" dock="DOCK_TOP"/>
+											<IBGStaticEx textClr="0x636363" autoCalcHeight="true" autoCalcWidth="true" text="$2411" margin="0, 2, 0, 1" dock="DOCK_TOP"/>
 										</Children>
 									</IBGRegionPanel>
 								</Children>
@@ -63,11 +63,11 @@
 								<Children>
 									<IBGRegionPanel name="loginErrContentPanel" size="164,70" margin="208,134,208,159">
 										<Children>
-											<IBGStaticEx name="errorTip" textClr="0x636363" autoCalcHeight="true" autoCalcWidth="true" text="$2412" margin="15, 3, 0, 0" dock="DOCK_TOP"/>
+											<IBGStaticEx name="errorTip" textClr="0x636363" autoCalcHeight="true" autoCalcWidth="true" text="$2417" margin="15, 3, 0, 0" dock="DOCK_TOP"/>
 											<IBGRegionPanel size="164,25" margin="0,22,0,2" dock="DOCK_TOP">
 												<Children>
-													<IBGButton name="ConnectBtn" text="$2413" drawFocus="true" enableFocus="true" size="74,24" margin="0, 0, 0, 1" tabOrder="11" config="defaultBtn" dock="DOCK_LEFT"/>
-													<IBGButton name="CancelBtn" text="$2414" drawFocus="true" enableFocus="true" size="74,24" margin="14, 0, 2, 1" tabOrder="12" config="button" dock="DOCK_LEFT"/>
+													<IBGButton name="ConnectBtn" text="$2418" drawFocus="true" enableFocus="true" size="74,24" margin="0, 0, 0, 1" tabOrder="11" config="defaultBtn" dock="DOCK_LEFT"/>
+													<IBGButton name="CancelBtn" text="$2419" drawFocus="true" enableFocus="true" size="74,24" margin="14, 0, 2, 1" tabOrder="12" config="button" dock="DOCK_LEFT"/>
 												</Children>
 											</IBGRegionPanel>
 										</Children>

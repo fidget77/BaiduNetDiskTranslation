@@ -26,6 +26,12 @@
       <imgbtn name="lock_btn" pos="0,0,-0,-0" skin="function_btn_img" class="functional_panel_btn_text" icoskin="function_lock_img" cursor="arrow" icoxoffset="33" icoyoffset="20" txtyoffset="110">%str288%</imgbtn>
       <text pos="0,-25,-0,-5" class="functional_panel_btn_tip">%str294%</text>
     </dlg>
+	<!--设备管理入口-->
+    <dlg name="DeviceManage" pos="[25,0,@160,@160">
+      <imgbtn name="devicemanage_btn" pos="0,0,-0,-0" skin="function_btn_img" class="functional_panel_btn_text" icoskin="function_devicemanage_img" cursor="arrow" icoxoffset="43" icoyoffset="20" txtyoffset="110">%str3435%</imgbtn>
+      <img name="devicemanage_new_icon" pos="-58,8,@38,@18" skin="function_new_img"/>
+  	  <text pos="0,-25,-0,-5" class="functional_panel_btn_tip">%str3436%</text>
+    </dlg>
     <!--数据线-->
     <dlg name="DataCable" pos="[35,0,@140,@160" show="0">
       <imgbtn name="datacable_btn" pos="0,0,-0,-0" skin="function_btn_img" class="functional_panel_btn_text" icoskin="function_datacable_img" cursor="arrow" icoxoffset="33" icoyoffset="20" txtyoffset="110">%str286%</imgbtn>
