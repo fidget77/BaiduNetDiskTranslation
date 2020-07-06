@@ -13,7 +13,7 @@
 									</bkground>
 								</Properties>
 							</IBDGuiCell>
-							<IBGStaticEx textClr="0x333333" text="$2618" autoCalcHeight="true" autoCalcWidth="true" margin="7, 9, 0, 5" dock="DOCK_LEFT">
+							<IBGStaticEx textClr="0x333333" text="$2623" autoCalcHeight="true" autoCalcWidth="true" margin="7, 9, 0, 5" dock="DOCK_LEFT">
 							</IBGStaticEx>
 						</Children>
 					</IBGRegionPanel>

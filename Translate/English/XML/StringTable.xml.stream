@@ -179,8 +179,6 @@
   <String id="IDS_SHARE_CREATING_LINK" value="Creating sharing link, please wait ..." />
   <String id="IDS_SHARE_COPY_LINK_SUCCESS" value="Copy successful" />
   <String id="IDS_SHARE_LINK_SHARE" value="Share with friends via QQ, WeChat, Weibo, QQ " />
-  <String id="IDS_SHARE_PRIVATELINK_WITH_NO_PWD_DESC" value="No fetch code required, only users with the link can view" />
-  <String id="IDS_SHARE_PRIVATELINK_WITH_PWD_DESC" value="Only those who have the extraction code can view it, more privacy and security" />
   <String id="IDS_SHARE_TABBUTTON_LINKSHARE" value="Share Link" />
   <String id="IDS_SHARE_TABBUTTON_MEESAGESHARE" value="Share w. Friend" />
   <String id="IDS_SHARE_LINK_TYPE_PRIVATE_WITH_PWD" value="With extraction code" />
@@ -197,6 +195,14 @@
   <String id="IDS_SHARE_PUBLIC_LINK_EXPIRE_1DAYS" value="1天" />
   <String id="IDS_SHARE_PUBLIC_LINK_DAYS_EXPIRE" value="Link%dDays expired" />
   
+  <String id="IDS_SHARE_LINK_TYPE_SYSTEM_GENERATED_PWD" value="The system randomly generates an extraction code" />
+  <String id="IDS_SHARE_LINK_TYPE_SYSTEM_GENERATED_PWD_DECS" value="Generate a new extraction code randomly every time" />
+  <String id="IDS_SHARE_LINK_TYPE_USER_DEFINED_PWD" value="Custom extraction code" />
+  <String id="IDS_SHARE_LINK_TYPE_USER_DEFINED_PWD_WARNNING" value="Repeated use of the same extraction code has the risk of leakage, please exercise caution" />
+  <String id="IDS_SHARE_LINK_TYPE_USER_DEFINED_PWD_DECS" value="Support 4 letters or numbers" />
+  <String id="IDS_SHARE_LINK_TYPE_PRIVATE_WITH_NO_PWD_WARNNING" value="You can view without extracting the code, it is recommended not to select this option for company documents and private documents" />
+  <String id="IDS_SHARE_LINK_TYPE_USER_DEFINED_PWD_PLEASE_INPUT" value="Only 4 letters or numbers can be entered" /> 
+    
   <!-- 转存-->
   <String id="IDS_TRANSFER_ERR_DEFAULT" value="Dump error code %d" />
   <String id="IDS_TRANSFER_ERR_FILE_NOT_EXIST" value="File does not exist" />
@@ -212,8 +218,8 @@
   <String id="IDS_SERVERFOLDER_NEWFOLDER_DEFAULTNAME" value="New Folder" />
 
   <!-- 虚拟盘符-->
-  <String id="IDS_VIRTUALFOLDER_NAME" value="Baidu NetDisk" />
-  <String id="IDS_VIRTUALFOLDER_INFOTIP" value="Double-click to run Baidu Network Disk" />
+  <String id="IDS_VIRTUALFOLDER_NAME" value="Baidu Net Disk" />
+  <String id="IDS_VIRTUALFOLDER_INFOTIP" value="Double-click to run Baidu Net Disk" />
 
   <!--文件类型面板-->
   <String id="IDS_FILETYPEPANEL_ALL" value="All files" />

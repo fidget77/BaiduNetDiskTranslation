@@ -1225,4 +1225,16 @@
   <s id="3429">Intelligent transmission control does not affect the online experience.</s>
   <s id="3430">Special note: due to factors such as the network environment and file attributes, some files cannot enter this transmission channel and gain acceleration.</s>
   <s id="3431">Turn on download speedup</s>
+
+    <!--Document Preview Function-->
+  <s id="3450">View the document</s>
+  <s id="3451">This file type is not supported, you can view it after downloading </s>
+  <s id="3452">Download</s>
+  <s id="3453">Network failure</s>
+  <s id="3454">Replay</s>
+
+  <!--Functional Treasure Chest-->
+  <s id="3435">Equipment management</s>
+  <s id="3436">Manage login devices to protect account security </s>
+    
 </string>
