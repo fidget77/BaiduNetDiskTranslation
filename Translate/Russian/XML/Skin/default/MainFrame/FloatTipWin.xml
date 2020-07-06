@@ -5,13 +5,13 @@
 				<Children>
 					<IBGRegionPanel size="218,30" margin="6,1,6,0" dock="DOCK_TOP" config="TopFloattingPanel">
 						<Children>
-							<IBGButton name="UploadProgressBtn" dock="DOCK_LEFT" size="105,25" text="$2582" margin="0, 5, 0, 0" config="FloatTabButtonSelect"/>
-							<IBGButton name="DownloadProgressBtn" dock="DOCK_LEFT" size="105,25" text="$2583" margin="8, 5, 0, 0" config="FloatTabButtonUnselect"/>
+							<IBGButton name="UploadProgressBtn" dock="DOCK_LEFT" size="105,25" text="$2587" margin="0, 5, 0, 0" config="FloatTabButtonSelect"/>
+							<IBGButton name="DownloadProgressBtn" dock="DOCK_LEFT" size="105,25" text="$2588" margin="8, 5, 0, 0" config="FloatTabButtonUnselect"/>
 						</Children>
 					</IBGRegionPanel>
 					<IBGRegionPanel name="ButtonRegionPanel" size="230,24" dock="DOCK_BOTTOM" margin="0, 0, 0, 0">
 						<Children>
-							<IBGStaticEx name="viewDetail" autoCalcHeight="true" autoCalcWidth="true" text="$2584" margin="3, 6, 7, 3" handCursor="true" dock="DOCK_RIGHT">
+							<IBGStaticEx name="viewDetail" autoCalcHeight="true" autoCalcWidth="true" text="$2589" margin="3, 6, 7, 3" handCursor="true" dock="DOCK_RIGHT">
 								<Children>
 									<IBGLinkItem config="linkItem" positionMode="true" position="0,-1"/>
 								</Children>

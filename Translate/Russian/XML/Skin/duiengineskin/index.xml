@@ -91,6 +91,7 @@
 <resid type="XML" name="IDR_DUI_FILEUPLOADTIP_DIALOG" layer="1" file="xml\dlg_fileupload_tip.xml"/>
 <resid type="XML" name="IDR_DUI_P2P_HELPEACHOTHER_DIALOG" layer="1" file="xml\dlg_p2p_help_eachother.xml"/>
 <resid type="XML" name="IDR_DUI_P2P_HELPEACHOTHER_PROTOCOL_DIALOG" layer="1" file="xml\dlg_p2p_help_eachother_protocol.xml"/>
+<resid type="XML" name="IDR_DUI_DOCVIEWDLG" layer="1" file="xml\DocumentViewDlg\DocumentViewDlg.xml"/>
 
 <!--窗口背景资源-->
 <resid type="IMGX" name="IDP_MAIN_DLG_FRAME" file="image\common\window\windowBkg.png"  />
@@ -324,6 +325,8 @@
 <resid type="IMGX" name="IDP_IMG_FUNTION_LOCK" file="image\MainPanel\FunctionalBoxPanel\Lock.png" />
 <resid type="IMGX" name="IDP_IMG_FUNTION_RECYCLE" file="image\MainPanel\FunctionalBoxPanel\Recycle.png" />
 <resid type="IMGX" name="IDP_IMG_FUNTION_GARBAGECLEAN" file="image\MainPanel\FunctionalBoxPanel\GarbageClean.png" />
+<resid type="IMGX" name="IDP_IMG_FUNTION_NEW" file="image\MainPanel\FunctionalBoxPanel\New.png" />
+<resid type="IMGX" name="IDP_IMG_FUNTION_DEVICEMANAGE" file="image\MainPanel\FunctionalBoxPanel\DeviceManage.png" />
 <resid type="IMGX" name="IDP_IMG_FUNTION_SVIPONLY" file="image\MainPanel\FunctionalBoxPanel\SvipOnly.png" />
 <resid type="IMGX" name="IDP_IMG_FUNTION_BTN_BKG" file="image\MainPanel\FunctionalBoxPanel\BtnBkg.png" />
 <resid type="IMGX" name="IDP_IMG_FUNTION_FREE" file="image\MainPanel\FunctionalBoxPanel\Free.png" />
@@ -881,3 +884,6 @@
 <!--p2p互助提速-->
 <resid type="IMGX" name="IDP_P2P_HELP_EACHOTHER_BTN" file="image\P2pHelpEachotherDlg\p2p_help_eachother_button.png" />
 <resid type="IMGX" name="IDP_P2P_HELP_EACHOTHER_FRAME" file="image\P2pHelpEachotherDlg\p2p_help_eachother_frame.png" />
+
+<!--文档预览-->
+<resid type="IMGX" name="IDP_DOCUMENTVIEWDLG_LOAD_ERROR" file="image\DocumentViewDlg\LoadError.png"/>

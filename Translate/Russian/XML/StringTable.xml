@@ -177,8 +177,6 @@
   <String id="IDS_SHARE_CREATING_LINK" value="Создайте ссылку для обмена, пожалуйста, подождите ..." />
   <String id="IDS_SHARE_COPY_LINK_SUCCESS" value="Копирование успешно" />
   <String id="IDS_SHARE_LINK_SHARE" value="Поделиться с друзьями через QQ, WeChat, Weibo, QQ" />
-  <String id="IDS_SHARE_PRIVATELINK_WITH_NO_PWD_DESC" value="Код извлечения не требуется, только пользователи со ссылкой могут просматривать" />
-  <String id="IDS_SHARE_PRIVATELINK_WITH_PWD_DESC" value="Только те, у кого есть пароль, могут просматривать его, больше конфиденциальности и безопасности" />
   <String id="IDS_SHARE_TABBUTTON_LINKSHARE" value="Поделиться ссылкой" />
   <String id="IDS_SHARE_TABBUTTON_MEESAGESHARE" value="Поделиться с друг" />
   <String id="IDS_SHARE_LINK_TYPE_PRIVATE_WITH_PWD" value="С паролем" />
@@ -195,6 +193,14 @@
   <String id="IDS_SHARE_PUBLIC_LINK_EXPIRE_1DAYS" value="1д" />
   <String id="IDS_SHARE_PUBLIC_LINK_DAYS_EXPIRE" value=" Ссылка истечет  через %d дней" />
 
+  <String id="IDS_SHARE_LINK_TYPE_SYSTEM_GENERATED_PWD" value="Система случайным образом генерирует код потверждения" />
+  <String id="IDS_SHARE_LINK_TYPE_SYSTEM_GENERATED_PWD_DECS" value="Генерация нового кода потверждения случайным образом каждый раз" />
+  <String id="IDS_SHARE_LINK_TYPE_USER_DEFINED_PWD" value="Пользовательский код потверждения" />
+  <String id="IDS_SHARE_LINK_TYPE_USER_DEFINED_PWD_WARNNING" value="Повторное использование одного и того же кода потверждения может привести к утечке" />
+  <String id="IDS_SHARE_LINK_TYPE_USER_DEFINED_PWD_DECS" value="Поддержка 4 буквы или цифры" />
+  <String id="IDS_SHARE_LINK_TYPE_PRIVATE_WITH_NO_PWD_WARNNING" value="Вы можете просматривать без потверждения кода, рекомендуется не выбирать эту опцию для документов компании и личных документов" />
+  <String id="IDS_SHARE_LINK_TYPE_USER_DEFINED_PWD_PLEASE_INPUT" value="Можно ввести только 4 буквы или цифры" /> 
+    
   <!-- свалка-->
   <String id="IDS_TRANSFER_ERR_DEFAULT" value="Ошибка: Код ошибки%d" />
   <String id="IDS_TRANSFER_ERR_FILE_NOT_EXIST" value="Файл не существует" />
