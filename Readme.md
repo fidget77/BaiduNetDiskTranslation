@@ -14,8 +14,12 @@ Localization of the **BaiduNetDisk** program for PC in
 # Screen 💻
 
 <details>
+ <summary>Windows Client <img src="https://i5.imageban.ru/out/2020/07/19/1a0b8eefe55876cb5c367aca2fb846fd.png" width="35" height="35" />
 
-## Windows Client <img src="https://i5.imageban.ru/out/2020/07/19/1a0b8eefe55876cb5c367aca2fb846fd.png" width="35" height="35" />
+</summary>
+
+
+
 
 <details>
   <summary>Russian</summary>
