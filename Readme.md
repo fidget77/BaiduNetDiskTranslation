@@ -12,7 +12,7 @@ Localization of the **BaiduNetDisk** program for PC in
 
 > [Download a modified installer with a choice of localization language](https://drive.google.com/drive/folders/1bzDB5z8eOCnVITvIvLw8_0fuZdKNJ0UC)
 # Screen 💻
-## Windows Client 
+## Windows Client [![imageban](https://i5.imageban.ru/out/2020/07/19/1a0b8eefe55876cb5c367aca2fb846fd.png=10x20)](https://imageban.ru)
 
 <details>
   <summary>Russian</summary>
