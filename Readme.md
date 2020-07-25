@@ -8,9 +8,9 @@ Localization of the **BaiduNetDisk** program for PC in
 
 
 # Download 🔻
-> [Download localization](https://github.com/zloisupport/BaiduNetDiskTranslation/releases)
+> [Download localization](https://bit.ly/3fYH54o)
 
-> [Download a modified installer with a choice of localization language](https://drive.google.com/drive/folders/1bzDB5z8eOCnVITvIvLw8_0fuZdKNJ0UC)
+> [Download a modified installer with a choice of localization language](https://bit.ly/2BtHzR2)
 # Screen 💻
 
 <details>
