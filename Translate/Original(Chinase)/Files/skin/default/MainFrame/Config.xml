@@ -1216,7 +1216,7 @@
   	<Property name="font">
 		<IBGFont height="14" width="0" orientation="0" italic="false" underline="false" strikeout="false" charSet="1" facename="宋体"/>
 	</Property>
-    <Property name="editPadding" value="12,6,10,1"/>
+    <Property name="editPadding" value="12,8,10,1"/>
     <Property name="staticBkColor" value="0xffffff"/>
     <Property name="staticTextColor" value="0x000000"/>
     <Property name="editBkColor" value="0xffffff"/>

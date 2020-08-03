@@ -12,7 +12,7 @@
 									</bkground>
 								</Properties>
 							</IBDGuiCell>
-							<IBGStaticEx name="title_name" textClr="0x333333" text="$2539" autoCalcHeight="true" autoCalcWidth="true" margin="7, 8, 0, 8" dock="DOCK_LEFT">
+							<IBGStaticEx name="title_name" textClr="0x333333" text="$2553" autoCalcHeight="true" autoCalcWidth="true" margin="7, 8, 0, 8" dock="DOCK_LEFT">
 								<Properties>
 									<textFont>
 										<IBGFont height="18"/>
@@ -35,21 +35,21 @@
 									</bkground>
 								</Properties>
 							</IBDGuiCell>
-							<IBGStaticEx textClr="0x666666" text="$2731" autoCalcHeight="true" autoCalcWidth="true" margin="140, 16, 121, 0" dock="DOCK_TOP">
+							<IBGStaticEx textClr="0x666666" text="$2745" autoCalcHeight="true" autoCalcWidth="true" margin="140, 16, 121, 0" dock="DOCK_TOP">
 								<Properties>
 									<textFont>
 										<IBGFont height="22"/>
 									</textFont>
 								</Properties>
 							</IBGStaticEx>
-							<IBGStaticEx textClr="0x666666" text="$2732" autoCalcHeight="true" autoCalcWidth="true" margin="162, 37, 121, 0" dock="DOCK_TOP">
+							<IBGStaticEx textClr="0x666666" text="$2746" autoCalcHeight="true" autoCalcWidth="true" margin="162, 37, 121, 0" dock="DOCK_TOP">
 								<Properties>
 									<textFont>
 										<IBGFont height="18"/>
 									</textFont>
 								</Properties>
 							</IBGStaticEx>
-							<IBGButton name="tryBackupBtn" dock="DOCK_TOP" size="100,34" config="defaultBtn" text="$2733" margin="225, 8, 225, 0"/>
+							<IBGButton name="tryBackupBtn" dock="DOCK_TOP" size="100,34" config="defaultBtn" text="$2747" margin="225, 8, 225, 0"/>
 						</Children>
 					</IBGRegionPanel>
 					<IBGRegionPanel size="550,380" name="backupManagePanel" margin="0,0,0,0" dock="DOCK_TOP" sizeAsParent="false" unseen="true">
@@ -65,27 +65,27 @@
 										<Children>
 											<IBGRegionPanel name="notUsingBackupTipPanel" size="550,40" margin="0,0,0,0" dock="DOCK_TOP" sizeAsParent="false">
 												<Children>
-													<IBGStaticEx textClr="0x333333" text="$2724" autoCalcHeight="true" autoCalcWidth="true" margin="18, 12, 0, 0" dock="DOCK_LEFT"/>
-													<IBGStaticEx name="notUsingBuyVipLink" autoCalcHeight="true" autoCalcWidth="true" text="$2726" margin="0, 12, 18, 0" handCursor="true" dock="DOCK_RIGHT">
+													<IBGStaticEx textClr="0x333333" text="$2738" autoCalcHeight="true" autoCalcWidth="true" margin="18, 12, 0, 0" dock="DOCK_LEFT"/>
+													<IBGStaticEx name="notUsingBuyVipLink" autoCalcHeight="true" autoCalcWidth="true" text="$2740" margin="0, 12, 18, 0" handCursor="true" dock="DOCK_RIGHT">
 														<Children>
 															<IBGLinkItem config="BackupDlgLinkItem" positionMode="true" position="0,-1"/>
 														</Children>
 													</IBGStaticEx>
-													<IBGStaticEx textClr="0x333333" text="$2725" autoCalcHeight="true" autoCalcWidth="true" margin="0, 12, 4, 0" dock="DOCK_RIGHT"/>
+													<IBGStaticEx textClr="0x333333" text="$2739" autoCalcHeight="true" autoCalcWidth="true" margin="0, 12, 4, 0" dock="DOCK_RIGHT"/>
 												</Children>
 											</IBGRegionPanel>
 											<IBGRegionPanel name="usingBackupTipPanel" size="550,40" margin="0,0,0,0" dock="DOCK_TOP" sizeAsParent="false" unseen="true">
 												<Children>
-													<IBGStaticEx textClr="0x333333" text="$2727" autoCalcHeight="true" autoCalcWidth="true" margin="18, 12, 0, 0" dock="DOCK_LEFT"/>
+													<IBGStaticEx textClr="0x333333" text="$2741" autoCalcHeight="true" autoCalcWidth="true" margin="18, 12, 0, 0" dock="DOCK_LEFT"/>
 													<IBGProgress name="backupQuotaProgress" size="100,4" config="backup_blue_progress" range="0,100" pos="0" margin="2, 18, 0, 18" dock="DOCK_LEFT"/>
 													<IBGStaticEx name="backupQuotaText" textClr="0x999999" text="0G/2G" autoCalcHeight="true" autoCalcWidth="true" margin="2, 12, 0, 0" dock="DOCK_LEFT"/>
-													<IBGStaticEx name="backupQuotaErrorTip" textClr="0x4f53f7" text="$2730" autoCalcHeight="true" autoCalcWidth="true" margin="2, 12, 0, 0" dock="DOCK_LEFT" unseen="true"/>
-													<IBGStaticEx name="usingBuyVipLink" autoCalcHeight="true" autoCalcWidth="true" text="$2726" margin="0, 12, 18, 0" handCursor="true" dock="DOCK_RIGHT">
+													<IBGStaticEx name="backupQuotaErrorTip" textClr="0x4f53f7" text="$2744" autoCalcHeight="true" autoCalcWidth="true" margin="2, 12, 0, 0" dock="DOCK_LEFT" unseen="true"/>
+													<IBGStaticEx name="usingBuyVipLink" autoCalcHeight="true" autoCalcWidth="true" text="$2740" margin="0, 12, 18, 0" handCursor="true" dock="DOCK_RIGHT">
 														<Children>
 															<IBGLinkItem config="BackupDlgLinkItem" positionMode="true" position="0,-1"/>
 														</Children>
 													</IBGStaticEx>
-													<IBGStaticEx textClr="0x333333" text="$2728" autoCalcHeight="true" autoCalcWidth="true" margin="0, 12, 4, 0" dock="DOCK_RIGHT"/>
+													<IBGStaticEx textClr="0x333333" text="$2742" autoCalcHeight="true" autoCalcWidth="true" margin="0, 12, 4, 0" dock="DOCK_RIGHT"/>
 												</Children>
 											</IBGRegionPanel>
 										</Children>
@@ -104,7 +104,7 @@
 													</bkground>
 												</Properties>
 											</IBDGuiCell>
-											<IBGStaticEx textClr="0x4f53f7" text="$2722" autoCalcHeight="true" autoCalcWidth="true" margin="4, 12, 0, 0" dock="DOCK_LEFT"/>
+											<IBGStaticEx textClr="0x4f53f7" text="$2736" autoCalcHeight="true" autoCalcWidth="true" margin="4, 12, 0, 0" dock="DOCK_LEFT"/>
 										</Children>
 									</IBGRegionPanel>
 									<IBGRegionPanel name="svipUserTipPanel" size="550,40" margin="0,0,0,0" dock="DOCK_TOP" sizeAsParent="false" unseen="true">
@@ -121,7 +121,7 @@
 													</bkground>
 												</Properties>
 											</IBDGuiCell>
-											<IBGStaticEx textClr="0x479ec9" text="$2723" autoCalcHeight="true" autoCalcWidth="true" margin="4, 12, 0, 0" dock="DOCK_LEFT"/>
+											<IBGStaticEx textClr="0x479ec9" text="$2737" autoCalcHeight="true" autoCalcWidth="true" margin="4, 12, 0, 0" dock="DOCK_LEFT"/>
 										</Children>
 									</IBGRegionPanel>
 								</Children>
@@ -135,17 +135,17 @@
 											</bkground>
 										</Properties>
 										<Children>
-											<IBGStaticEx textClr="0x333333" text="$2540" autoCalcHeight="true" autoCalcWidth="true" margin="22, 10, 3, 0" dock="DOCK_LEFT"/>
+											<IBGStaticEx textClr="0x333333" text="$2554" autoCalcHeight="true" autoCalcWidth="true" margin="22, 10, 3, 0" dock="DOCK_LEFT"/>
 											<IBGStaticEx textClr="0x333333" name="backup_dirs_count" text="0" autoCalcHeight="true" autoCalcWidth="true" margin="0, 10, 3, 0" dock="DOCK_LEFT"/>
 											<IBGStaticEx textClr="0x333333" text=")" autoCalcHeight="true" autoCalcWidth="true" margin="0, 10, 3, 0" dock="DOCK_LEFT"/>
-											<IBGStaticEx textClr="0x9c9c9c" text="$2717" autoCalcHeight="true" autoCalcWidth="true" margin="0, 10, 22, 0" dock="DOCK_RIGHT"/>
+											<IBGStaticEx textClr="0x9c9c9c" text="$2731" autoCalcHeight="true" autoCalcWidth="true" margin="0, 10, 22, 0" dock="DOCK_RIGHT"/>
 										</Children>
 									</IBGRegionPanel>
 									<IBGRegionPanel name="SyncListView" size="506,257" dock="DOCK_TOP" config="BackupListPanel" sizeAsParent="false" margin="22, 0, 22, 0">
 										<Children>
 											<IBGRegionPanel name="list_pannel" unseen="true" sizeAsParent="true" dock="DOCK_TOP" margin="1,1,1,0">
 												<Children>
-													<IBGButton name="AddBackupFolderBtn" dock="DOCK_TOP" size="530,24" config="iconButtonAddBackupDir" text="$2546" margin="0, 0, 0, 0"/>
+													<IBGButton name="AddBackupFolderBtn" dock="DOCK_TOP" size="530,24" config="iconButtonAddBackupDir" text="$2560" margin="0, 0, 0, 0"/>
 													<IBGScrollBar size="0, 1" name="listctrlex_hscrollbar" dock="DOCK_BOTTOM" config="horizontalScrollBarApp"/>
 													<IBGRegionPanel name="ListCtrlExPanel" dock="DOCK_FILL">
 														<Children>
@@ -160,18 +160,18 @@
 													<IBGGIFControl name="emptygif" image="Resource:MainFrame\\SettingDlg\\BackupDlg\\emptyview.gif" dock="DOCK_TOP" margin="0,0,0,0" size="502,172"></IBGGIFControl>
 													<IBGRegionPanel dock="DOCK_FILL" margin="0,0,0,0">
 														<Children>
-															<IBGStaticEx textClr="0x333333" text="$2556" autoCalcHeight="true" autoCalcWidth="true" margin="14, 4, 3, 0" dock="DOCK_TOP">
+															<IBGStaticEx textClr="0x333333" text="$2570" autoCalcHeight="true" autoCalcWidth="true" margin="14, 4, 3, 0" dock="DOCK_TOP">
 																<Properties>
 																	<textFont>
 																		<IBGFont height="20"/>
 																	</textFont>
 																</Properties>
 															</IBGStaticEx>
-															<IBGStaticEx textClr="0x333333" text="$2557" autoCalcHeight="true" autoCalcWidth="true" margin="14, 7, 3, 0" dock="DOCK_TOP"/>
+															<IBGStaticEx textClr="0x333333" text="$2571" autoCalcHeight="true" autoCalcWidth="true" margin="14, 7, 3, 0" dock="DOCK_TOP"/>
 															<IBGRegionPanel dock="DOCK_TOP" margin="0,0,0,0" size="502,35">
 																<Children>
-																	<IBGStaticEx textClr="0x333333" text="$2558" autoCalcHeight="true" autoCalcWidth="true" margin="14, 7, 3, 0" dock="DOCK_LEFT"/>
-																	<IBGButton name="startBackupBtn" dock="DOCK_RIGHT" size="120,24" config="iconButtonAddBackupDirInEmpty" text="$2550" margin="0, 9, 14, 12"/>
+																	<IBGStaticEx textClr="0x333333" text="$2572" autoCalcHeight="true" autoCalcWidth="true" margin="14, 7, 3, 0" dock="DOCK_LEFT"/>
+																	<IBGButton name="startBackupBtn" dock="DOCK_RIGHT" size="120,24" config="iconButtonAddBackupDirInEmpty" text="$2564" margin="0, 9, 14, 12"/>
 																</Children>
 															</IBGRegionPanel>
 														</Children>
@@ -184,9 +184,9 @@
 							</IBGRegionPanel>
 							<IBGRegionPanel name="bottomBtnPanel" size="550,45" margin="0,0,0,0" dock="DOCK_TOP" config="settingPanel">
 								<Children>
-									<IBGCheckButton name="enableRevisionCheck" dock="DOCK_LEFT" autoCalcWidth="true" size="0,14" check="false" config="checkButton" text="$2552" margin="20, 8, 2, 8"/>
-									<IBGStaticEx name="safeboxNotSupportMultiVerTip" textClr="0x0000ff" text="$2560" autoCalcHeight="true" autoCalcWidth="true" margin="0, 15, 3, 1" dock="DOCK_LEFT" unseen="true"/>
-									<IBGButton name="AIScanBtn" tabOrder="12" drawFocus="true" dock="DOCK_RIGHT" enableFocus="true" size="80,24" config="button" text="$2541" margin="0, 10, 22, 10"/>
+									<IBGCheckButton name="enableRevisionCheck" dock="DOCK_LEFT" autoCalcWidth="true" size="0,14" check="false" config="checkButton" text="$2566" margin="20, 8, 2, 8"/>
+									<IBGStaticEx name="safeboxNotSupportMultiVerTip" textClr="0x0000ff" text="$2574" autoCalcHeight="true" autoCalcWidth="true" margin="0, 15, 3, 1" dock="DOCK_LEFT" unseen="true"/>
+									<IBGButton name="AIScanBtn" tabOrder="12" drawFocus="true" dock="DOCK_RIGHT" enableFocus="true" size="80,24" config="button" text="$2555" margin="0, 10, 22, 10"/>
 								</Children>
 							</IBGRegionPanel>
 						</Children>

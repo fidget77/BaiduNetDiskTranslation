@@ -590,6 +590,7 @@
         <imgframe name="mainpanel_toolbar_delete" src="IDP_MAINPANEL_TOOLBAR_DELETE" subwidth="20"/>
         <imgframe name="mainpanel_toolbar_createdir" src="IDP_MAINPANEL_TOOLBAR_CREATEDIR" subwidth="20"/>
         <imgframe name="mainpanel_toolbar_pdftoword" src="IDP_MAINPANEL_TOOLBAR_PDFTOWORD" subwidth="20"/>
+        <imgframe name="mainpanel_toolbar_mobileview" src="IDP_MAINPANEL_TOOLBAR_MOBILEVIEW" subwidth="20"/>
         <imgframe name="mainpanel_toolbar_drop_arrow" src="IDP_MAINPANEL_TOOLBAR_DROPDOWN" subwidth="20"/>
         <imgframe name="mainpanel_toolbar_offlinedownload" src="IDP_MAINPANEL_TOOLBAR_OFFLINEDOWNLOAD" subwidth="20"/>
         <imgframe name="mainpanel_toolbar_more" src="IDP_MAINPANEL_TOOLBAR_MORE" subwidth="20"/>
@@ -645,6 +646,7 @@
 
         <!--主面板视图面板-->
         <imgframe name="mainpanel_listview_pdf_to_word" src="IDP_MAINPANEL_LISTVIEW_PDFTOWORD" subwidth="16"/>
+        <imgframe name="mainpanel_listview_mobile_view" src="IDP_MAINPANEL_LISTVIEW_MOBILEVIEW" subwidth="16"/>
         <imgframe name="mainpanel_listview_share" src="IDP_MAINPANEL_LISTVIEW_SHARE" subwidth="16"/>
         <imgframe name="mainpanel_listview_down" src="IDP_MAINPANEL_LISTVIEW_DOWN" subwidth="16"/>
         <imgframe name="mainpanel_listview_del" src="IDP_MAINPANEL_LISTVIEW_DELETE" subwidth="16"/>
@@ -765,6 +767,14 @@
         <imgframe name="p2p_help_eachother_frame" src="IDP_P2P_HELP_EACHOTHER_FRAME" left="2" right="2" top="2" bottom="2"/>
 
         <imgframe name="doc_dlg_load_error" src="IDP_DOCUMENTVIEWDLG_LOAD_ERROR" />
+
+        <!--手机查看文件-->
+        <imgframe name="fileqrcodedlg_load_error" src="IDP_FILEQRCODE_DLG_LOAD_ERROR"/>
+        <imgframe name="fileqrcodedlg_qrcode_bg" src="IDP_FILEQRCODE_DLG_QRCODE_BG"/>
+        <gif name="fileqrcodedlg_loading_gif" src="IDP_FILEQRCODE_DLG_LOADING"/>
+
+        <!--批量创建分享链接-->
+        <imgframe name="share_batch_link_guide_bkg" src="IDP_IMG_SHARE_BATCH_LINK_GUIDE_BKG"/>
     </skins>
 
     <style>
@@ -1003,6 +1013,11 @@
         <class name="cls_video_definition_script_text" skin="definition_script" crtext="42230C"  font2="facename:微软雅黑;bold:0;italic:0;underline:0;adding:-2" cursor="arrow" align="center" valign="middle" />
         <!--p2p互助提速-->
         <class name="cls_p2p_help_eachother_green_frame" skin="p2p_help_eachother_frame" font="0000:微软雅黑" crtext="FFFFFF" x-margin="0"/>
+
+        <!--手机查看文件-->
+        <class name="cls_file_qrcode_dlg_big_text" crtext="333333" font2="facename:微软雅黑;bold:1;italic:0;underline:0;adding:10"/>
+        <class name="cls_file_qrcode_dlg_middle_text" crtext="999999" font2="facename:微软雅黑;bold:0;italic:0;underline:0;adding:2"/>
+		<class name="cls_file_qrcode_dlg_link" cursor="hand" crtext="06a8ff" crhover="06a8ff" font="0200:微软雅黑" hoverfont="0202:微软雅黑"/>
     </style>
 
     <objattr>

@@ -13,7 +13,7 @@
 									</bkground>
 								</Properties>
 							</IBDGuiCell>
-							<IBGStaticEx name="title_name" textClr="0xffffff" text="$2562" autoCalcHeight="true" autoCalcWidth="true" margin="7, 9, 0, 10" dock="DOCK_LEFT">
+							<IBGStaticEx name="title_name" textClr="0xffffff" text="$2576" autoCalcHeight="true" autoCalcWidth="true" margin="7, 9, 0, 10" dock="DOCK_LEFT">
 							</IBGStaticEx>
 						</Children>
 					</IBGRegionPanel>
@@ -27,8 +27,8 @@
 							</IBGRegionPanel>
 							<IBGRegionPanel size="552,36" margin="0,0,0,0" dock="DOCK_TOP" config="GuideBottomPanel">
 								<Children>
-									<IBGButton size="72,24" name="NextStepBtn" text="$2565" dock="DOCK_RIGHT" margin="0,6,16,6" config="defaultBtn" tabOrder="12"/>
-									<IBGButton size="72,24" name="SkipGuideBtn" text="$2563" dock="DOCK_RIGHT" margin="0,6,8,6" config="button" tabOrder="11"/>
+									<IBGButton size="72,24" name="NextStepBtn" text="$2579" dock="DOCK_RIGHT" margin="0,6,16,6" config="defaultBtn" tabOrder="12"/>
+									<IBGButton size="72,24" name="SkipGuideBtn" text="$2577" dock="DOCK_RIGHT" margin="0,6,8,6" config="button" tabOrder="11"/>
 								</Children>
 							</IBGRegionPanel>
 						</Children>
@@ -43,9 +43,9 @@
 							</IBGRegionPanel>
 							<IBGRegionPanel size="552,36" margin="0,0,0,0" dock="DOCK_TOP" config="GuideBottomPanel">
 								<Children>
-									<IBGButton size="72,24" name="Page2NextStepBtn" text="$2565" dock="DOCK_RIGHT" margin="0,6,16,6" config="defaultBtn" tabOrder="22"/>
-									<IBGButton size="72,24" name="Page2PrevStepBtn" text="$2564" dock="DOCK_RIGHT" margin="0,6,8,6" config="button" tabOrder="21"/>
-									<IBGButton size="72,24" name="Page2SkipGuideBtn" text="$2563" dock="DOCK_RIGHT" margin="0,6,8,6" config="button" tabOrder="20"/>
+									<IBGButton size="72,24" name="Page2NextStepBtn" text="$2579" dock="DOCK_RIGHT" margin="0,6,16,6" config="defaultBtn" tabOrder="22"/>
+									<IBGButton size="72,24" name="Page2PrevStepBtn" text="$2578" dock="DOCK_RIGHT" margin="0,6,8,6" config="button" tabOrder="21"/>
+									<IBGButton size="72,24" name="Page2SkipGuideBtn" text="$2577" dock="DOCK_RIGHT" margin="0,6,8,6" config="button" tabOrder="20"/>
 								</Children>
 							</IBGRegionPanel>
 						</Children>
@@ -60,8 +60,8 @@
 							</IBGRegionPanel>
 							<IBGRegionPanel size="552,36" margin="0,0,0,0" dock="DOCK_TOP" config="GuideBottomPanel">
 								<Children>
-									<IBGButton size="72,24" name="Page3FinishBtn" text="$2566" dock="DOCK_RIGHT" margin="0,6,16,6" config="defaultBtn" tabOrder="41"/>
-									<IBGButton size="72,24" name="Page3PrevStepBtn" text="$2564" dock="DOCK_RIGHT" margin="0,6,8,6" config="button" tabOrder="42"/>
+									<IBGButton size="72,24" name="Page3FinishBtn" text="$2580" dock="DOCK_RIGHT" margin="0,6,16,6" config="defaultBtn" tabOrder="41"/>
+									<IBGButton size="72,24" name="Page3PrevStepBtn" text="$2578" dock="DOCK_RIGHT" margin="0,6,8,6" config="button" tabOrder="42"/>
 								</Children>
 							</IBGRegionPanel>
 						</Children>

@@ -3,8 +3,8 @@
 		<Children>
 			<IBGRegionPanel dock="DOCK_BOTTOM" size="338,40">
 				<Children>
-					<IBGCheckButton name="tipCheckBtn" size="70,14" margin="8, 10, 0, 16" text="$2531" check="false" dock="DOCK_LEFT" config="checkButton"/>
-					<IBGButton name="speedBtn" size="90,30" text="$2532" margin="158,0,12,10" dock="DOCK_RIGHT" config="redColorBtn"/>
+					<IBGCheckButton name="tipCheckBtn" size="70,14" margin="8, 10, 0, 16" text="$2545" check="false" dock="DOCK_LEFT" config="checkButton"/>
+					<IBGButton name="speedBtn" size="90,30" text="$2546" margin="158,0,12,10" dock="DOCK_RIGHT" config="redColorBtn"/>
 				</Children>
 			</IBGRegionPanel>
 			<IBGRegionPanel dock="DOCK_TOP" margin="0,0,0,0" size="338,25">
@@ -29,7 +29,7 @@
 							</downBkg>
 						</Properties>
 					</IBGButton>
-					<IBGStaticEx name="nmStaticTitle" text="$2525" dock="DOCK_FILL" endEllipsis="true" margin="1,5,0,0" textClr="0x333333">
+					<IBGStaticEx name="nmStaticTitle" text="$2539" dock="DOCK_FILL" endEllipsis="true" margin="1,5,0,0" textClr="0x333333">
 						<Properties>
 							<textFont>
 								<IBGFont weight="1000"/>
@@ -40,7 +40,7 @@
 			</IBGRegionPanel>
 			<IBGRegionPanel dock="DOCK_FILL" name="nmPanelContainer" margin="0,0,0,0">
 				<Children>
-					<IBGStaticEx name="speedupTip1" autoCalcWidth="true" autoCalcHeight="true" textClr="0x666666" text="$2528" margin="10,12,0,12" dock="DOCK_TOP"/>
+					<IBGStaticEx name="speedupTip1" autoCalcWidth="true" autoCalcHeight="true" textClr="0x666666" text="$2542" margin="10,12,0,12" dock="DOCK_TOP"/>
 					<IBGStaticEx name="speedupTip2" autoCalcWidth="true" autoCalcHeight="true" textClr="0x666666" margin="10,0,0,0" dock="DOCK_TOP"/>
 				</Children>
 			</IBGRegionPanel>

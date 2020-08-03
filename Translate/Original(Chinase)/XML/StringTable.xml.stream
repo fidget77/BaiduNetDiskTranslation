@@ -199,8 +199,23 @@
   <String id="IDS_SHARE_LINK_TYPE_USER_DEFINED_PWD_WARNNING" value="重复使用同一提取码有泄露风险，请谨慎操作" />
   <String id="IDS_SHARE_LINK_TYPE_USER_DEFINED_PWD_DECS" value="支持4位字母或数字" />
   <String id="IDS_SHARE_LINK_TYPE_PRIVATE_WITH_NO_PWD_WARNNING" value="无需提取码即可查看，公司文件和私密文件建议勿选此项" />
-  <String id="IDS_SHARE_LINK_TYPE_USER_DEFINED_PWD_PLEASE_INPUT" value="仅可输入4位字母或数字" /> 
-    
+  <String id="IDS_SHARE_LINK_TYPE_USER_DEFINED_PWD_PLEASE_INPUT" value="仅可输入4位字母或数字" />
+  <!-- 批量创建链接-->
+  <String id="IDS_SHARE_LINK_ACCESS_NUMBER" value="访问人数:" />
+  <String id="IDS_SHARE_LINK_ACCESS_NO_LIMIT" value="不限" />
+  <String id="IDS_SHARE_LINK_ACCESS_NUMBER_CLUE" value="可输入1-10人" />
+  <String id="IDS_SHARE_LINK_ACCESS_NUMBER_CLUE2" value="您还未填写访问人数" />
+  <String id="IDS_SHARE_LINK_ACCESS_NUMBER_CLUE3" value="至少要填写1个访问人数" />
+  <String id="IDS_SHARE_LINK_ACCESS_NUMBER_CLUE4" value="最多只能填写10个访问人数" />
+  <String id="IDS_SHARE_MANAGE_STATICTEXT_SHARE_NUM" value="%d.  链接:" />
+  <String id="IDS_SHARE_MANAGE_STATICTEXT_NUM" value="尊敬的会员，%d条批量链接及提取码已生成" />
+  <String id="IDS_SHARE_MANAGE_STATICTEXT_SIGNAL" value="您也可以单个复制分享给好友哦~" />
+  <String id="IDS_SHARE_BATCH_LINK_COPY_SUCCESS_TIP" value="批量复制成功" />
+  <String id="IDS_SHARELISTDLG_COPY_BATCH_LINK_FORMAT" value="%s链接：%s" />
+  <String id="IDS_SHARELISTDLG_COPY_BATCH_LINK_WITH_PWD_FORMAT" value="%s链接：%s %s提取码：%s" />
+  <String id="IDS_SHARE_LINK_COPY_ALL" value="一键复制全部" />
+  <String id="IDS_SHARE_CREATE_BATCH_LINK" value="批量创建链接" />
+
   <!-- 转存-->
   <String id="IDS_TRANSFER_ERR_DEFAULT" value="保存失败，错误码：%d" />
   <String id="IDS_TRANSFER_ERR_FILE_NOT_EXIST" value="文件不存在" />

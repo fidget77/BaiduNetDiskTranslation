@@ -13,7 +13,7 @@
 									</bkground>
 								</Properties>
 							</IBDGuiCell>
-							<IBGStaticEx name="title_name" textClr="0x333333" text="$2592" autoCalcHeight="true" autoCalcWidth="true" margin="7, 9, 0, 5" dock="DOCK_LEFT">
+							<IBGStaticEx name="title_name" textClr="0x333333" text="$2606" autoCalcHeight="true" autoCalcWidth="true" margin="7, 9, 0, 5" dock="DOCK_LEFT">
 							</IBGStaticEx>
 						</Children>
 					</IBGRegionPanel>
@@ -29,11 +29,11 @@
 						<Children>
 							<IBGRegionPanel size="400, 85" margin="24,10,0,0" dock="DOCK_LEFT">
 								<Children>
-									<IBGStaticEx autoCalcHeight="true" autoCalcWidth="true" textClr="0x666666" text="$2398" margin="0, 0, 0, 0" dock="DOCK_TOP"/>
+									<IBGStaticEx autoCalcHeight="true" autoCalcWidth="true" textClr="0x666666" text="$2412" margin="0, 0, 0, 0" dock="DOCK_TOP"/>
 									<IBGRegionPanel size="400, 26" margin="0,0,0,0" dock="DOCK_TOP">
 										<Children>
-											<IBGStaticEx name="Version" autoCalcHeight="true" autoCalcWidth="true" textClr="0x666666" text="$2593" margin="0, 5, 18, 5" dock="DOCK_LEFT"/>
-											<IBGStaticEx name="userProtocol" autoCalcHeight="true" autoCalcWidth="true" text="$2596" margin="0, 5, 0, 5" handCursor="true" dock="DOCK_LEFT">
+											<IBGStaticEx name="Version" autoCalcHeight="true" autoCalcWidth="true" textClr="0x666666" text="$2607" margin="0, 5, 18, 5" dock="DOCK_LEFT"/>
+											<IBGStaticEx name="userProtocol" autoCalcHeight="true" autoCalcWidth="true" text="$2610" margin="0, 5, 0, 5" handCursor="true" dock="DOCK_LEFT">
 												<Children>
 													<IBGLinkItem config="linkItem" positionMode="true" position="0,-1"/>
 												</Children>
@@ -42,7 +42,7 @@
 									</IBGRegionPanel>
 									<IBGRegionPanel size="400, 18" margin="0,0,0,11" dock="DOCK_TOP">
 										<Children>
-											<IBGStaticEx autoCalcHeight="true" autoCalcWidth="true" textClr="0x666666" text="$2594" margin="0, 0, 0, 0" dock="DOCK_LEFT">
+											<IBGStaticEx autoCalcHeight="true" autoCalcWidth="true" textClr="0x666666" text="$2608" margin="0, 0, 0, 0" dock="DOCK_LEFT">
 												<Properties>
 													<textFont>
 														<IBGFont height="18"/>
