@@ -201,6 +201,23 @@
   <String id="IDS_SHARE_LINK_TYPE_PRIVATE_WITH_NO_PWD_WARNNING" value="Вы можете просматривать без потверждения кода, рекомендуется не выбирать эту опцию для документов компании и личных документов" />
   <String id="IDS_SHARE_LINK_TYPE_USER_DEFINED_PWD_PLEASE_INPUT" value="Можно ввести только 4 буквы или цифры" /> 
     
+  <!-- Создавайте ссылки оптом-->
+  <String id="IDS_SHARE_LINK_ACCESS_NUMBER" value="Количество посетителей:" />
+  <String id="IDS_SHARE_LINK_ACCESS_NO_LIMIT" value="Неограниченный" />
+  <String id="IDS_SHARE_LINK_ACCESS_NUMBER_CLUE" value="Могут войти 1-10 человек" />
+  <String id="IDS_SHARE_LINK_ACCESS_NUMBER_CLUE2" value="Вы не заполнили количество посетителей" />
+  <String id="IDS_SHARE_LINK_ACCESS_NUMBER_CLUE3" value="Необходимо заполнить как минимум 1 количество посетителей" />
+  <String id="IDS_SHARE_LINK_ACCESS_NUMBER_CLUE4" value="Вы можете заполнить только до 10 посетителей" />
+  <String id="IDS_SHARE_MANAGE_STATICTEXT_SHARE_NUM" value="%d.  ссылка на сайт:" />
+  <String id="IDS_SHARE_MANAGE_STATICTEXT_NUM" value="Уважаемый участник，%dПакетные ссылки и коды извлечения были созданы" />
+  <String id="IDS_SHARE_MANAGE_STATICTEXT_SIGNAL" value="Вы также можете скопировать и поделиться с друзьями по отдельности ~" />
+  <String id="IDS_SHARE_BATCH_LINK_COPY_SUCCESS_TIP" value="Массовое копирование успешно" />
+  <String id="IDS_SHARELISTDLG_COPY_BATCH_LINK_FORMAT" value="%sссылка на сайт：%s" />
+  <String id="IDS_SHARELISTDLG_COPY_BATCH_LINK_WITH_PWD_FORMAT" value="%sссылка на сайт：%s %sКод потверждения：%s" />
+  <String id="IDS_SHARE_LINK_COPY_ALL" value="Ключ, чтобы скопировать все" />
+  <String id="IDS_SHARE_CREATE_BATCH_LINK" value="Создавайте ссылки оптом" />
+
+
   <!-- свалка-->
   <String id="IDS_TRANSFER_ERR_DEFAULT" value="Ошибка: Код ошибки%d" />
   <String id="IDS_TRANSFER_ERR_FILE_NOT_EXIST" value="Файл не существует" />
