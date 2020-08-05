@@ -289,7 +289,7 @@
 					<!-- 空面板区域（所有列表复用） -->
 					<IBGRegionPanel name="emptyPanel" size="776,500" margin="0,0,4,8" dock="DOCK_FILL" unseen="true">
 						<Children>
-							<IBGRegionPanel name="localEmptyPanel" size="236,170" margin="43,0,44,0" dock="DOCK_TOP">
+							<IBGRegionPanel name="localEmptyPanel" size="236,170" margin="43,0,50,0" dock="DOCK_TOP">
 								<Children>
 									<IBGGIFControl name="emptyImage" image="Resource:MainFrame\\MainPanel\\TransPanel\\localtask_empty.png" dock="DOCK_TOP" margin="0,0,0,0" size="236,144"/>
 									<IBGStaticEx name="emptyTip" autoCalcHeight="true" autoCalcWidth="true" text="$2291" dock="DOCK_TOP" textClr="0x333333" margin="54, 0, 0, 0">

@@ -300,9 +300,9 @@
   <String id="IDS_TIP_DEL_HIS_ITEM" value="Очистить историю" />
   <String id="IDS_TIP_OPEN_FILE" value="Открыть файл" />
   <String id="IDS_TIP_NO_TRANS_TASK" value="Нет задач" />
-  <String id="IDS_TIP_NO_UPLOAD_TRANS_TASK" value="В настоящее время нет задач загрузки" />
-  <String id="IDS_TIP_NO_DOWNLOAD_TRANS_TASK" value="В настоящее время нет задач загрузки" />
-  <String id="IDS_TIP_NO_TRANS_RECORD" value="Не задач" />
+  <String id="IDS_TIP_NO_UPLOAD_TRANS_TASK" value="Нет задач для выгрузки" />
+  <String id="IDS_TIP_NO_DOWNLOAD_TRANS_TASK" value="Нет задач для загрузки" />
+  <String id="IDS_TIP_NO_TRANS_RECORD" value="Нет задач" />
   <String id="IDS_TRANPANEL_PAUSE_CLOUDTASK_BTN" value="Приостановить все" />
   <String id="IDS_TRANPANEL_START_CLOUDTASK_BTN" value="Начать все" />
   <String id="IDS_TRANPANEL_CANCEL_CLOUDTASK_BTN" value="Отменить все" />

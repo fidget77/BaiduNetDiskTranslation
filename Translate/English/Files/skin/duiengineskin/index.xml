@@ -50,6 +50,7 @@
 <resid type="XML" name="IDR_DUI_COMPRESSPACKAGE_ERRORTIP_DIALOG" layer="1" file="xml\CompressPackage\ErrorTipDlg.xml"/>
 <resid type="XML" name="IDR_DUI_COMPRESSPACKAGE_CLOSETIP_DIALOG" layer="1" file="xml\CompressPackage\CloseTipDlg.xml"/>
 <resid type="XML" name="IDR_DUI_FILEPROPERTY_DIALOG" layer="1" file="xml\dlg_file_property.xml"/>
+<resid type="XML" name="IDR_DUI_FILEQRCODE_DIALOG" layer="1" file="xml\dlg_file_qrcode.xml"/>
 <resid type="XML" name="IDR_DUI_AD_DIALOG" layer="1" file="xml\AdPanel.xml"/>
 <resid type="XML" name="IDR_DUI_USER_TYPE_GUIDE_DIALOG"   layer="1" file="xml\dlg_user_type_guide.xml"/>
 <resid type="XML" name="IDR_DUI_FILEVERSION_VIP_GUIDE_DIALOG"   layer="1" file="xml\dlg_fileversion_vip_guide.xml"/>
@@ -92,7 +93,8 @@
 <resid type="XML" name="IDR_DUI_P2P_HELPEACHOTHER_DIALOG" layer="1" file="xml\dlg_p2p_help_eachother.xml"/>
 <resid type="XML" name="IDR_DUI_P2P_HELPEACHOTHER_PROTOCOL_DIALOG" layer="1" file="xml\dlg_p2p_help_eachother_protocol.xml"/>
 <resid type="XML" name="IDR_DUI_DOCVIEWDLG" layer="1" file="xml\DocumentViewDlg\DocumentViewDlg.xml"/>
-
+<resid type="XML" name="IDR_DUI_SET_SHARE_BATCH_LINK_NUM_DIALOG" layer="1" file="xml\MainPanel\SharePanel\ShareBatchLinkNumDlg.xml"/>
+<resid type="XML" name="IDR_DUI_SHARE_BATCH_LINK_GUIDE_DIALOG" layer="1" file="xml\MainPanel\SharePanel\ShareBatchLinkGuideDlg.xml"/>
 <!--窗口背景资源-->
 <resid type="IMGX" name="IDP_MAIN_DLG_FRAME" file="image\common\window\windowBkg.png"  />
 <resid type="IMGX" name="IDP_MESSAGEBOX_BACKGROUND_FRAME" file="image\common\window\MsgBxBk_New.png"  />
@@ -701,6 +703,7 @@
 <resid type="IMGX" name="IDP_MAINPANEL_TOOLBAR_DELETE" file="image\MainPanel\NetdiskPanel\Toolbar\delete.png"/>
 <resid type="IMGX" name="IDP_MAINPANEL_TOOLBAR_CREATEDIR" file="image\MainPanel\NetdiskPanel\Toolbar\createdir.png"/>
 <resid type="IMGX" name="IDP_MAINPANEL_TOOLBAR_PDFTOWORD" file="image\MainPanel\NetdiskPanel\Toolbar\pdftoword.png"/>
+<resid type="IMGX" name="IDP_MAINPANEL_TOOLBAR_MOBILEVIEW" file="image\MainPanel\NetdiskPanel\Toolbar\mobileview.png"/>
 <resid type="IMGX" name="IDP_MAINPANEL_TOOLBAR_DROPDOWN" file="image\MainPanel\NetdiskPanel\Toolbar\arrow.png"/>
 <resid type="IMGX" name="IDP_MAINPANEL_TOOLBAR_OFFLINEDOWNLOAD" file="image\MainPanel\NetdiskPanel\Toolbar\offlinedownload.png"/>
 <resid type="IMGX" name="IDP_MAINPANEL_TOOLBAR_MORE" file="image\MainPanel\NetdiskPanel\Toolbar\more.png"/>
@@ -756,6 +759,7 @@
 
 <!--主面板视图面板-->
 <resid type="IMGX" name="IDP_MAINPANEL_LISTVIEW_PDFTOWORD" file="image\MainPanel\NetdiskPanel\ViewContainerPanel\ListView\pdf_to_word.png"/>
+<resid type="IMGX" name="IDP_MAINPANEL_LISTVIEW_MOBILEVIEW" file="image\MainPanel\NetdiskPanel\ViewContainerPanel\ListView\mobile_view.png"/>
 <resid type="IMGX" name="IDP_MAINPANEL_LISTVIEW_SHARE" file="image\MainPanel\NetdiskPanel\ViewContainerPanel\ListView\share.png"/>
 <resid type="IMGX" name="IDP_MAINPANEL_LISTVIEW_DOWN" file="image\MainPanel\NetdiskPanel\ViewContainerPanel\ListView\down.png"/>
 <resid type="IMGX" name="IDP_MAINPANEL_LISTVIEW_DELETE" file="image\MainPanel\NetdiskPanel\ViewContainerPanel\ListView\delete.png"/>
@@ -887,3 +891,12 @@
 
 <!--文档预览-->
 <resid type="IMGX" name="IDP_DOCUMENTVIEWDLG_LOAD_ERROR" file="image\DocumentViewDlg\LoadError.png"/>
+
+<!--手机查看文件-->
+<resid type="IMGX" name="IDP_FILEQRCODE_DLG_LOAD_ERROR" file="image\FileQrCodeDlg\load_error.png"/>
+<resid type="IMGX" name="IDP_FILEQRCODE_DLG_QRCODE_BG" file="image\FileQrCodeDlg\qrcode_bg.png"/>
+<resid type="IMGX" name="IDP_FILEQRCODE_DLG_LOADING" file="image\FileQrCodeDlg\loading.gif" />
+
+<!--批量创建分享链接-->
+<resid type="IMGX" name="IDP_IMG_SHARE_BATCH_LINK_GUIDE_BKG" file="image\MainPanel\SharePanel\BatchLinkGuideBkg.png" />
+

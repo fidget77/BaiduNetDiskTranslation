@@ -17,7 +17,8 @@
                 <img name="img_trans_status" pos="0,0,-0,-0" skin="mainpanel_listview_trans_wait" show="0"></img>
               </img>
               <link name="link_filename" pos="[10,|-8" height="16" class="cls_mainpanel_filename_link" cursor="hand" dotted="1"></link>
-              <imgbtn name="btn_pdftoword" pos="-108,|-8,@16,@16" skin="mainpanel_listview_pdf_to_word" cursor="arrow" tip="%str2361%" show="0"></imgbtn>
+              <imgbtn name="btn_mobileview" pos="-140,|-8,@16,@16" skin="mainpanel_listview_mobile_view" cursor="arrow" tip="%str2362%" show="0"></imgbtn>
+              <imgbtn name="btn_pdftoword" pos="-112,|-8,@16,@16" skin="mainpanel_listview_pdf_to_word" cursor="arrow" tip="%str2361%" show="0"></imgbtn>
               <imgbtn name="btn_share" pos="[12,|-8,@16,@16" skin="mainpanel_listview_share" cursor="arrow" tip="%str2306%" show="0"></imgbtn>
               <imgbtn name="btn_down" pos="[12,|-8,@16,@16" skin="mainpanel_listview_down" cursor="arrow" tip="%str2321%" show="0"></imgbtn>
               <imgbtn name="btn_del" pos="[12,|-8,@16,@16" skin="mainpanel_listview_del" cursor="arrow" tip="%str2325%" show="0"></imgbtn>
@@ -92,6 +93,6 @@
   <dlg name="dlg_error_view" pos="0,0,-0,-0" show="0">
     <img name="error_view_bg" pos="|-90,|-100,@181,@127" skin="mainpanel_emptyview_error"></img>
     <text name="txt_error_tip" pos="|-150,[8,@300,@18" crtext="333333" font="0200:微软雅黑" align="center">%str2312%</text>
-    <imgbtn name="btn_refresh" pos="|-36,[16,@72,@25" class="defultbtn" crtext="ffffff" cursor="arrow">%str2313%</imgbtn>
+    <imgbtn name="btn_refresh" pos="|-36,[16,@116,@25" class="defultbtn" crtext="ffffff" cursor="arrow">%str2313%</imgbtn>
   </dlg>
 </dlg>

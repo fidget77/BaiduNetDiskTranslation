@@ -17,7 +17,8 @@
                 <img name="img_trans_status" pos="0,0,-0,-0" skin="mainpanel_listview_trans_wait" show="0"></img>
               </img>
               <link name="link_filename" pos="[10,|-8" height="16" class="cls_mainpanel_filename_link" cursor="hand" dotted="1"></link>
-              <imgbtn name="btn_pdftoword" pos="-108,|-8,@16,@16" skin="mainpanel_listview_pdf_to_word" cursor="arrow" tip="%str2361%" show="0"></imgbtn>
+              <imgbtn name="btn_mobileview" pos="-140,|-8,@16,@16" skin="mainpanel_listview_mobile_view" cursor="arrow" tip="%str2362%" show="0"></imgbtn>
+              <imgbtn name="btn_pdftoword" pos="-112,|-8,@16,@16" skin="mainpanel_listview_pdf_to_word" cursor="arrow" tip="%str2361%" show="0"></imgbtn>
               <imgbtn name="btn_share" pos="[12,|-8,@16,@16" skin="mainpanel_listview_share" cursor="arrow" tip="%str2306%" show="0"></imgbtn>
               <imgbtn name="btn_down" pos="[12,|-8,@16,@16" skin="mainpanel_listview_down" cursor="arrow" tip="%str2321%" show="0"></imgbtn>
               <imgbtn name="btn_del" pos="[12,|-8,@16,@16" skin="mainpanel_listview_del" cursor="arrow" tip="%str2325%" show="0"></imgbtn>
