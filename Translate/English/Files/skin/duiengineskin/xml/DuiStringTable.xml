@@ -786,7 +786,7 @@
   <s id="1526">understand more</s>
   <s id="1527">Some of your capacity is about to expire,</s>
   <s id="1528">View</s>
-  <s id="1529">Shop</s>
+  <s id="1529">Library</s>
   <s id="1530">Scores</s>
   <s id="1531">Redeem Gifts></s>
   <!--主面板-->
@@ -920,6 +920,7 @@
   <s id="2183">Can convert the first 5 files for you, continue？</s>
   <s id="2184">cancel</s>
   <s id="2185">carry on</s>
+  <s id="2186">Mobile phone</s>
 
   <!--地址栏-->
   <s id="2200">My network drive</s>
@@ -1025,9 +1026,10 @@
   <s id="2357">Ascending</s>
   <s id="2358">Descending</s>
   <s id="2359">Name</s>
- <s id="2360">取消上传</s>
+  <s id="2360">取消上传</s>
   <s id="2361">PDF转Word</s>
-  
+  <s id="2362">Mobile phone</s>
+
   <!--最近使用视图-->
   <s id="2365">To clear the record</s>
   <s id="2366">Delete the file</s>
@@ -1237,4 +1239,32 @@
   <s id="3435">Equipment management</s>
   <s id="3436">Manage login devices to protect account security </s>
     
+ <!--Scan code to open file dialog-->
+  <s id="3500">Mobile phone scan code to view</s>
+  <s id="3501">Scan and view on mobile phone</s>
+  <s id="3502">turn on</s>
+  <s id="3503">File size：%s</s>
+  <s id="3504">Network connection failed</s>
+  <s id="3505">Connection failed</s>
+  <s id="3506">Click retry</s>
+  <s id="3507">Loading...</s>
+  <s id="3508"> Baidu SkyDriveAPP </s>
+  <s id="3509">scan it</s>
+  <s id="3510">Currently does not support computer online preview，</s>
+  <s id="3511">Please use your mobile phone to scan or download and view</s>
+  <s id="3512">(Please use 10.1.60 and above)</s>
+
+  <!--Batch share links-->
+  <s id="3437">You set a limit on the number of visitors, and the number of visitors per link is limited to %d</s>
+  <s id="3438">Number of links created</s>
+  <s id="3439">Can enter 1-10</s>
+  <s id="3440">At least 1 link must be filled in</s>
+  <s id="3441">You have not filled in the number of links</s>
+  <s id="3442">You can only create up to 10 links</s>
+  <s id="3443">Creating bulk links, please wait</s>
+  <s id="3444">Super members enjoy privileges, create multiple links with one click</s>
+  <s id="3445">Create bulk links</s>
+
+
+
 </string>

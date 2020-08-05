@@ -203,6 +203,23 @@
   <String id="IDS_SHARE_LINK_TYPE_PRIVATE_WITH_NO_PWD_WARNNING" value="You can view without extracting the code, it is recommended not to select this option for company documents and private documents" />
   <String id="IDS_SHARE_LINK_TYPE_USER_DEFINED_PWD_PLEASE_INPUT" value="Only 4 letters or numbers can be entered" /> 
     
+
+      <!-- 批量创建链接-->
+  <String id="IDS_SHARE_LINK_ACCESS_NUMBER" value="Number of visitors:" />
+  <String id="IDS_SHARE_LINK_ACCESS_NO_LIMIT" value="Unlimited" />
+  <String id="IDS_SHARE_LINK_ACCESS_NUMBER_CLUE" value="Can enter 1-10 people" />
+  <String id="IDS_SHARE_LINK_ACCESS_NUMBER_CLUE2" value="You have not filled in the number of visitors" />
+  <String id="IDS_SHARE_LINK_ACCESS_NUMBER_CLUE3" value="At least 1 number of visitors must be filled in" />
+  <String id="IDS_SHARE_LINK_ACCESS_NUMBER_CLUE4" value="You can only fill in up to 10 visitors" />
+  <String id="IDS_SHARE_MANAGE_STATICTEXT_SHARE_NUM" value="%d.  link:" />
+  <String id="IDS_SHARE_MANAGE_STATICTEXT_NUM" value="Dear member，%d Batch links and extraction codes have been generated" />
+  <String id="IDS_SHARE_MANAGE_STATICTEXT_SIGNAL" value="You can also copy and share with friends individually~" />
+  <String id="IDS_SHARE_BATCH_LINK_COPY_SUCCESS_TIP" value="Bulk copy is successful" />
+  <String id="IDS_SHARELISTDLG_COPY_BATCH_LINK_FORMAT" value="%slink：%s" />
+  <String id="IDS_SHARELISTDLG_COPY_BATCH_LINK_WITH_PWD_FORMAT" value="%s link：%s %sExtraction code：%s" />
+  <String id="IDS_SHARE_LINK_COPY_ALL" value="Copy all with one click" />
+  <String id="IDS_SHARE_CREATE_BATCH_LINK" value="Create links in bulk" />
+
   <!-- 转存-->
   <String id="IDS_TRANSFER_ERR_DEFAULT" value="Dump error code %d" />
   <String id="IDS_TRANSFER_ERR_FILE_NOT_EXIST" value="File does not exist" />
