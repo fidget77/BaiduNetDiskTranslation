@@ -321,8 +321,8 @@
   <String id="IDS_TRANPANEL_DELETE_ALL_CLOUDTASK_TIP" value="Вы уверены, что хотите отменить все задачи и удалить записи?" />
   <String id="IDS_TRANPANEL_CLOUDTASK_UNSTART_TIP" value="Ждите..." />
   <String id="IDS_TRANPANEL_PUSH_DELAY_TIP" value="Небольшая задержка в процессе обработки, пожалуйста, будьте терпеливы" />
-  <String id="IDS_TRANPANEL_DOWNLOAD_REQUESTING_TIP" value="Скачать запрос ..." />
-  <String id="IDS_TRANPANEL_UPLOAD_REQUESTING_TIP" value="Загрузить запрос ..." />
+  <String id="IDS_TRANPANEL_DOWNLOAD_REQUESTING_TIP" value="Ожидаем ответ ..." />
+  <String id="IDS_TRANPANEL_UPLOAD_REQUESTING_TIP" value="Загужаю ответ ..." />
   <String id="IDS_TRANPANEL_REQUESTING_TIP" value="Запрос..." />
   <!--Сообщение об ошибке на панели передачи -->
   
