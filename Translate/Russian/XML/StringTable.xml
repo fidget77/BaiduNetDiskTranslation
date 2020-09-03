@@ -336,7 +336,7 @@
   <String id="IDS_ERRORTIP_UP_FAIL" value="Загрузка не удалась" />
   <String id="IDS_ERRORTIP_FILE_TOO_BIG" value="Максимальный размер файла 4 ГБ" />
   <String id="IDS_ERRORTIP_FILE_SUPER_BIG" value="Превышение лимита %d" />
-  <String id="IDS_ERRORTIP_FILE_TOO_BIG_MERMBER" value="Загрузка не удалась, максимальный размер файла ограничен 20 ГБ" />
+  <String id="IDS_ERRORTIP_FILE_TOO_BIG_MERMBER" value="Ошибка загрузки, превышен максимальный загружаемый размер" />
   <String id="IDS_ERRORTIP_SPACE_NOT_ENOUGH" value="Нехватка облачного пространства" />
   <String id="IDS_ERRORTIP_SAFEBOXSPACE_NOT_ENOUGH" value="Сейф недостаточно места" />
   <String id="IDS_ERRORTIP_FILE_PATH_INVALID" value="Локальный путь к файлу не существует или является недопустимым" />
@@ -791,7 +791,7 @@
   <String id="IDS_BACKUPLISTDLG_DELETE_TIP" value="Удалить" />
   <String id="IDS_BACKUPLISTDLG_VIP_USER_TIP" value="Уважаемые пользователи, вы можете наслаждаться неограниченным авто рез.копир папок" />
   <String id="IDS_BACKUPLISTDLG_SVIP_USER_TIP" value="Уважаемые пользователи Super VIP'a, вы можете пользоваться неограниченными привилегиями для автоматического резервного копирования папок" />
-  <String id="IDS_BACKUPLISTDLG_REGULAR_USER_TIP" value="Вы можете использовать функцию автоматического резервного копирования папок для резервного копирования до 2G файлов в месяц" />
+  <String id="IDS_BACKUPLISTDLG_REGULAR_USER_TIP" value="Вы можете использовать функцию автоматического резервного копирования папок, до 10 ГБ файлов в месяц." />
   <String id="IDS_BACKUPLISTDLG_REGULAR_USER_GUIDE_TIP" value="Откройте VIP доступ для автоматического резервного копирования без ограничений" />
   <String id="IDS_BACKUPLISTDLG_REGULAR_USER_BUY_VIP" value="Открыть сейчас>" />
   <String id="IDS_BACKUPLISTDLG_REGULAR_USER_QUOTA_TIP" value="Использованные данные за этот месяц：" />
@@ -1232,18 +1232,18 @@
   <String id="IDS_AUTOBACKUP_NOTIFY_FILE_OCCUPIED_FAIL_SINGLE_END_TIP" value="”Резервное копирование еще не завершено" />
   <String id="IDS_AUTOBACKUP_NOTIFY_FILE_OCCUPIED_FAIL_VIEW_DETAIL" value="Посмотреть сейчас>" />
   <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_FAIL_TITLE" value="Трафик превышает лимит, сбой резервного копирования" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_FAIL_START_TIP" value="В этом месяце израсходован резервный трафик 2G, активовать VIP доступ для рез.копир" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_FAIL_START_TIP" value="В этом месяце израсходован резервный трафик 10GB, активовать VIP доступ для рез.копир" />
   <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_FAIL_END_TIP" value="Неограниченное " />
   <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_FAIL_VIEW_DETAIL" value="Открыть сейчас>" />
   <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_TITLE" value="В этом месяце заканчивается трафик автоматического резервного копирования" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_START_TIP" value="В этом месяце, резервного копирования 2Г трафик вот-вот закончится, и не будет возможности для нормального резервного копирования " />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_START_TIP" value="В этом месяце, резервного копирования 10GB трафик вот-вот закончится, и не будет возможности для нормального резервного копирования " />
   <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_END_TIP" value="Файл, открытие VIP доступа, файлы резервного копирования неограниченны" />
   <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_VIEW_DETAIL" value="Открыть сейчас>" />
   <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_EXCEED_LIMIT_TITLE" value="Трафик превышает лимит, автоматическое резервное копирование приостановлено" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_EXCEED_LIMIT_START_TIP" value="В этом месяце превышен лимит трафика резервного копирования 2G, и резервное копирование файлов не может быть выполнено，" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_EXCEED_LIMIT_START_TIP" value="В этом месяце превышен лимит трафика резервного копирования 10G, и резервное копирование файлов не может быть выполнено，" />
   <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_EXCEED_LIMIT_END_TIP" value="Открытие VIP, неограниченное количество файлов резервных копий" />
   <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_EXCEED_LIMIT_VIEW_DETAIL" value="Открыть сейчас>" />
-
+  <String id="IDS_AUTOBACKUP_NOTIFY_FAIL_RETRY" value="Попробуйте еще раз>" />
   <!--PDF в Word Bubble-->
   <String id="IDS_PDFTOWORD_NOTIFY_SUCCEED_TITLE" value="Преобразование выполнено успешно" />
   <String id="IDS_PDFTOWORD_NOTIFY_SUCCEED_START_TIP" value="Успешно преобразован в документ Word" />
@@ -1281,5 +1281,24 @@
    <String id="IDS_P2P_SVIP_SPEEDUP_SLOW_TIP" value="SVIP Ускорение получения ссылки..."/>
    <String id="IDS_HELP_EACHOTHER_CLOSE" value="Подойди ближе" />
    <String id="IDS_HELP_EACHOTHER_OPEN" value="Перейти к открытию" />
+
+   <!--Новая версия автоматического резервного копирования-->
+  <String id="IDS_AUTOBACKUP_GUIDE_TIP" value="Не нужно загружать вручную! Включите автоматическое резервное копирование папок, чтобы просматривать часто используемые файлы на вашем компьютере в любое время и в любом месте." />
+  <String id="IDS_AUTOBACKUP_GUIDE_TIP_BTN" value="Пойти посмотреть" />
+    
+  <!--Настройка кросс-терминального тракта передачи-->
+  <String id="IDS_SETTING_STATIC_TEXT_TRANSFERDIR" value=" Выбор места для быстрой передачи файлов：" />
+  <String id="IDS_SETTING_STATIC_TEXT_TRANSFER_DEFAULTDIR" value="Быстрая передача файлов" />
+  <String id="IDS_REMOTE_DOWNLOAD_STATIC_START" value="Отправка..." />
+  <String id="IDS_REMOTE_DOWNLOAD_STATIC_START_INTRODUCTION" value="Получил файл с мобильного телефона и начал скачивание" />
+  <String id="IDS_REMOTE_DOWNLOAD_STATIC_START_OTHER_INTRODUCTION" value="Получил файл, отправленный с другого конца, и начал скачивание" />
+  <String id="IDS_REMOTE_DOWNLOAD_STATIC_FAIL" value="Ошибка передачи" />
+  <String id="IDS_REMOTE_DOWNLOAD_STATIC_FAIL_INTRODUCTION" value="Ошибка передачи. Повторите попытку на своем телефоне или на странице." />
+  <String id="IDS_REMOTE_DOWNLOAD_STATIC_SUCCESS" value="Успешно передано" />
+  <String id="IDS_REMOTE_DOWNLOAD_STATIC_SUCCESS_INTRODUCTION" value="Текст, отправленный с мобильного телефона, успешно получен" />
+  <String id="IDS_REMOTE_DOWNLOAD_STATIC_SUCCESS_OTHER_INTRODUCTION" value="Файл, отправленный на другом конце, был успешно получен" />
+  <String id="IDS_REMOTE_DOWNLOAD_NOTIFY_START_VIEW_DETAIL" value="Проверить прогресс>" />
+  <String id="IDS_REMOTE_DOWNLOAD_NOTIFY_SUCCEED_VIEW_DETAIL" value="Смотри сейчас>" />
+
 
 </StringTable>
