@@ -333,7 +333,7 @@
   <String id="IDS_ERRORTIP_UP_FAIL" value="上传失败" />
   <String id="IDS_ERRORTIP_FILE_TOO_BIG" value="超出4G限制" />
   <String id="IDS_ERRORTIP_FILE_SUPER_BIG" value="超出%dG限制" />
-  <String id="IDS_ERRORTIP_FILE_TOO_BIG_MERMBER" value="上传失败，文件最大限制为20G" />
+  <String id="IDS_ERRORTIP_FILE_TOO_BIG_MERMBER" value="上传失败，超出可上传大小上限" />
   <String id="IDS_ERRORTIP_SPACE_NOT_ENOUGH" value="网盘空间不足" />
   <String id="IDS_ERRORTIP_SAFEBOXSPACE_NOT_ENOUGH" value="隐藏空间储存已达上限" />
   <String id="IDS_ERRORTIP_FILE_PATH_INVALID" value="本地文件路径不存在或非法" />
@@ -789,7 +789,7 @@
   <String id="IDS_BACKUPLISTDLG_DELETE_TIP" value="取消" />
   <String id="IDS_BACKUPLISTDLG_VIP_USER_TIP" value="尊敬的会员用户，您可尊享文件夹自动备份无限制~" />
   <String id="IDS_BACKUPLISTDLG_SVIP_USER_TIP" value="尊敬的超级会员用户，您可享受文件夹自动备份流量无限制特权~" />
-  <String id="IDS_BACKUPLISTDLG_REGULAR_USER_TIP" value="您可使用自动备份文件夹功能，每月最多可备份2G文件。" />
+  <String id="IDS_BACKUPLISTDLG_REGULAR_USER_TIP" value="您可使用自动备份文件夹功能，每月最多可备份10G文件。" />
   <String id="IDS_BACKUPLISTDLG_REGULAR_USER_GUIDE_TIP" value="开通会员自动备份无限制" />
   <String id="IDS_BACKUPLISTDLG_REGULAR_USER_BUY_VIP" value="立即开通>" />
   <String id="IDS_BACKUPLISTDLG_REGULAR_USER_QUOTA_TIP" value="本月已使用流量：" />
@@ -1229,17 +1229,18 @@
   <String id="IDS_AUTOBACKUP_NOTIFY_FILE_OCCUPIED_FAIL_SINGLE_END_TIP" value="”尚未完成备份" />
   <String id="IDS_AUTOBACKUP_NOTIFY_FILE_OCCUPIED_FAIL_VIEW_DETAIL" value="立即查看>" />
   <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_FAIL_TITLE" value="流量超限，备份失败" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_FAIL_START_TIP" value="本月2G备份流量已用完，开通会员，备份文件" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_FAIL_START_TIP" value="本月10G备份流量已用完，开通会员，备份文件" />
   <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_FAIL_END_TIP" value="无限制" />
   <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_FAIL_VIEW_DETAIL" value="立即开通>" />
   <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_TITLE" value="本月自动备份流量即将用完" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_START_TIP" value="本月2G备份流量即将用完，将无法为您正常备份" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_START_TIP" value="本月10G备份流量即将用完，将无法为您正常备份" />
   <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_END_TIP" value="文件，开通会员，备份文件无限制" />
   <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_VIEW_DETAIL" value="立即开通>" />
   <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_EXCEED_LIMIT_TITLE" value="流量超限，自动备份已暂停" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_EXCEED_LIMIT_START_TIP" value="本月2G备份流量已超限，无法进行文件备份，" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_EXCEED_LIMIT_START_TIP" value="本月10G备份流量已超限，无法进行文件备份，" />
   <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_EXCEED_LIMIT_END_TIP" value="开通会员，备份文件无限制" />
   <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_EXCEED_LIMIT_VIEW_DETAIL" value="立即开通>" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_FAIL_RETRY" value="重试>" />
 
   <!--PDF转Word气泡-->
   <String id="IDS_PDFTOWORD_NOTIFY_SUCCEED_TITLE" value="转换成功" />
@@ -1277,5 +1278,23 @@
    <String id="IDS_P2P_SVIP_SPEEDUP_SLOW_TIP" value="SVIP加速链接获取中..."/>
    <String id="IDS_HELP_EACHOTHER_CLOSE" value="去关闭" />
    <String id="IDS_HELP_EACHOTHER_OPEN" value="去开启" />
+  
+   <!--新版自动备份-->
+  <String id="IDS_AUTOBACKUP_GUIDE_TIP" value="无需手动上传！开启文件夹自动备份，随时随地查看电脑上常用文件。" />
+  <String id="IDS_AUTOBACKUP_GUIDE_TIP_BTN" value="去看看" />
+    
+  <!--跨端传输路径设置-->
+  <String id="IDS_SETTING_STATIC_TEXT_TRANSFERDIR" value=" 文件快传位置选择：" />
+  <String id="IDS_SETTING_STATIC_TEXT_TRANSFER_DEFAULTDIR" value="网盘文件快传" />
+  <String id="IDS_REMOTE_DOWNLOAD_STATIC_START" value="正在传送中..." />
+  <String id="IDS_REMOTE_DOWNLOAD_STATIC_START_INTRODUCTION" value="收到来自手机传送的文件，已开始下载" />
+  <String id="IDS_REMOTE_DOWNLOAD_STATIC_START_OTHER_INTRODUCTION" value="收到来自其他端传送的文件，已开始下载" />
+  <String id="IDS_REMOTE_DOWNLOAD_STATIC_FAIL" value="传送失败" />
+  <String id="IDS_REMOTE_DOWNLOAD_STATIC_FAIL_INTRODUCTION" value="传送失败,请在手机或页面上重试" />
+  <String id="IDS_REMOTE_DOWNLOAD_STATIC_SUCCESS" value="传送成功" />
+  <String id="IDS_REMOTE_DOWNLOAD_STATIC_SUCCESS_INTRODUCTION" value="已成功收到手机传送的文件" />
+  <String id="IDS_REMOTE_DOWNLOAD_STATIC_SUCCESS_OTHER_INTRODUCTION" value="已成功收到其他端传送的文件" />
+  <String id="IDS_REMOTE_DOWNLOAD_NOTIFY_START_VIEW_DETAIL" value="查看进度>" />
+  <String id="IDS_REMOTE_DOWNLOAD_NOTIFY_SUCCEED_VIEW_DETAIL" value="立即查看>" />
 
 </StringTable>

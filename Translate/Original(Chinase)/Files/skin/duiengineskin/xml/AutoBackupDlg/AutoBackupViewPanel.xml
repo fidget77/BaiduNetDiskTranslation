@@ -1,0 +1,87 @@
+<!--头部操作面板-->
+<dlg name="dlg_noplay_autobackup_title_bar" pos="0,0,-0,@112" show="0">
+    <dlg pos="0,0,@650,-0" crtext="FFFFFF">
+        <text name="txt_noplay_autobackup_theme" pos="38,20,@312,@33" align="left" font="0C00:微软雅黑"></text>
+        <text name="txt_noplay_autobackup_num_tip" pos="38,[16,@154,@32" align="left" font="0300:微软雅黑"></text>
+        <text name="txt_noplay_autobackup_size_tip" pos="[80,69,@200,@32" align="left" font="0300:微软雅黑"></text>
+    </dlg>
+</dlg>
+
+<dlg name="dlg_loopplay_autobackup_title_bar" pos="0,0,-0,@112" show="0">
+    <dlg name="regular_user_loopplay_autobackup_theme" pos="0,0,-0,@33" crtext="FFFFFF" show="0">
+        <text pos="38,20,@170,@33" align="left" font="0C00:微软雅黑">%str3532%</text>
+        <progress name="progress_autobackup_quota" pos="[22,32,@198,@10" bgskin="auto_backup_progress_gray" posskin="auto_backup_progress_white" min="0" max="100" value="0"/>
+        <text name="txt_autobackup_used_quota" pos="[10,26,@100,@22" align="left" font="0300:微软雅黑">%str3533%</text>
+        <img name="autobackup_quota_warning_img" pos="[2,24,@65,@25" skin="auto_backup_quota_warn_icon" show="0"/>
+        <link name="link_open_vip_autobackup_quota" pos="-350,26,@150,@20" crtext="FFFFFF" crhover="FFFFFF" font="0300:微软雅黑" hoverfont="0302:微软雅黑" align="left" valign="middle" cursor="hand">%str3534%</link>
+    </dlg>
+    
+    <dlg name="vip_user_autobackup_theme" pos="0,0,-0,@33" crtext="FFFFFF" show="0">
+        <text name="txt_vip_loopplay_autobackup_theme" pos="38,20,-0,@30" align="left" font="0C00:微软雅黑"></text>
+    </dlg>
+    
+    <dlg pos="0,[34,-0,@32" crtext="FFFFFF"> <!--要轮询的tip-->
+        <text name="txt_autobackup_loopplay_tip" pos="38,0,@400,@32" align="left" font="0300:微软雅黑">%str3522%</text>
+    </dlg>
+</dlg>
+
+<!--列表-->
+<dlg name="dlg_view" pos="0,112,-0,-0" crbg="FFFFFF" show="1">
+    <!--可同时添加本地文件夹、云端文件夹(空列表)展示-->
+    <dlg name="dlg_empty_list_operation_view" pos="0,0,-1,@500" show="0">
+      <dlg pos="0,63,-1,@46" >
+        <hr pos="38,0,@1,@46" crbg="EDEDED" size="1"/>
+        <hr pos="38,0,@679,@1" crbg="EDEDED" size="1"/>	
+        <dlg name="local_folder_information_dlg" pos="0,0,-1,@46" show="0">
+          <img name="local_folder_image" pos="52,10,@28,@28" skin="folder_small_image" />
+          <text name="txt_local_folder_name" pos="[8,14" font="0200:微软雅黑" crtext="000000" hight="20" maxwidth="150" dotted="1" ></text>
+          <text name="txt_local_folder_path" pos="[8,14" font="0200:微软雅黑" crtext="999999" hight="20" maxwidth="380" dotted="1" ></text>
+        </dlg>
+        <hr pos="38,0,@1,@46" crbg="EDEDED" size="1"/>
+        <hr pos="38,46,@679,@1" crbg="EDEDED" size="1"/>
+        <imgbtn name="btn_select_local_folder" pos="-183,0,@150,@46" class="button" font="0400:微软雅黑">%str3556%</imgbtn>
+      </dlg>
+     
+      <dlg pos="0,[76,-1,@20">
+        <text name="txt_yun_path_begin" pos="240,0,@170,@20" font="0300:微软雅黑" crtext="333333" >%str3557%</text>
+        <text name="txt_yun_path_name" pos="[0,0" font="0300:微软雅黑" crtext="333333" hight="20" maxwidth="130" dotted="1"></text>
+        <text name="txt_yun_path_end" pos="[1,0,@110,@20" font="0300:微软雅黑" crtext="333333" >%str3558%</text>
+        <buttonex name="btn_modify_yun_path" pos="[10,0,@70,@20" font="0300:微软雅黑" hoverfont="0302:微软雅黑" cursor="hand" crtext="348AFF">%str3559%</buttonex>
+      </dlg>
+    
+      <dlg pos="0,[38,-1,@58">
+        <imgbtn name="btn_begin_autobackup" pos="347,0,@206,@58" crdisabled="FFFFFF" class="autobackup_active_btn">%str3555%</imgbtn>
+      </dlg>
+    </dlg>
+  <!--存在备份时的列表展示-->
+    <dlg name="dlg_backup_list_view" pos="0,0,-1,@500" show="0">
+      <dlg pos="0,27,-1,@46">
+        <text name="txt_have_backedup_num" pos="37,8,@170,@25" crtext="000000" font="0600:微软雅黑">%str3535%</text>
+        <buttonex name="btn_view_backup_detail" pos="[10,10,@100,@20" font="0300:微软雅黑" hoverfont="0302:微软雅黑" cursor="hand" crtext="348AFF">%str3536%</buttonex>
+        <imgbtn name="btn_open_backup_operation_dlg" pos="-210,0,@178,@46" skin="auto_backup_btn_frame" font="0600:微软雅黑" crtext="348AFF" >%str3537%</imgbtn>
+        <text name="txt_max_autobackup_num" pos="-200,0,@170,@46" font="0400:微软雅黑" crtext="999999" show="0">%str3547%</text>
+      </dlg>
+      <!--已备份文件夹列表视图-->
+      <dlg name="autobackup_list_container" pos="0,[38,-0,-0">
+        <listboxex name="autobackup_list_view" pos="0,0,-0,-0" itemheight="63" virtual="1">
+            <template>
+                <dlg name="dlg_normal" pos="37,0,-0,-0">                   
+                    <img name="img_filetype" pos="0,0,@20,@20" skin="folder_small_image"/>
+                    <link name="local_folder_name" pos="[10,0" align="left" cursor="hand" dotted="1" crtext="000000" hight="20" maxwidth="150" font="0300:微软雅黑"/>                   
+                    <link name="local_folder_path" pos="[0,0" align="left" cursor="hand" dotted="1" crtext="999999" hight="20" maxwidth="380" font="0300:微软雅黑"/>
+                    <imgbtn name="open_yun_path" pos="-141,0,@15,@19" skin="auto_backup_icon_locate"  tip="%str3562%" />
+                    <imgbtn name="modify_yun_path" pos="-96,0,@16,@18" skin="auto_backup_icon_setting"  tip="%str3563%" />
+                    <imgbtn name="delete_backup_folder" pos="-50,0,@16,@16" skin="auto_backup_icon_delete"  tip="%str3564%" />
+                    <hr pos="0,[14,@830,@1" crbg="EFEFEF" size="1"/> 
+                </dlg>               
+            </template>
+        </listboxex>
+      </dlg>
+      <dlg name="dlg_file_mulversion" pos="37,-40,-1,@20">
+         <check name="check_enable_mulversion" pos="0,0,@130,@20" font="0200:微软雅黑" crtext="000000" skin="btncheckbox">%str1155%</check>
+         <text name="txt_mulversion_introduction" pos="[6,0,@210,@20" font="0200:微软雅黑" crtext="999999">%str3538%</text>
+         <text name="txt_mulversion_tip" pos="350,0,@210,@20" font="0200:微软雅黑" crtext="333333" show="0">%str3551%</text>
+         <buttonex name="btn_open_vip_mulvision" pos="350,0,@100,@20" font="0200:微软雅黑" hoverfont="0202:微软雅黑" cursor="hand" show="0" crtext="FF436A">%str3552%</buttonex>
+      </dlg>
+    </dlg>
+</dlg>

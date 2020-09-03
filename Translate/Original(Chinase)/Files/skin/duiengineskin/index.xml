@@ -95,6 +95,13 @@
 <resid type="XML" name="IDR_DUI_DOCVIEWDLG" layer="1" file="xml\DocumentViewDlg\DocumentViewDlg.xml"/>
 <resid type="XML" name="IDR_DUI_SET_SHARE_BATCH_LINK_NUM_DIALOG" layer="1" file="xml\MainPanel\SharePanel\ShareBatchLinkNumDlg.xml"/>
 <resid type="XML" name="IDR_DUI_SHARE_BATCH_LINK_GUIDE_DIALOG" layer="1" file="xml\MainPanel\SharePanel\ShareBatchLinkGuideDlg.xml"/>
+<resid type="XML" name="IDR_DUI_LOGIN_DEVICE_STATUS_DIALOG" layer="1" file="xml\dlg_login_device_status.xml"/>
+
+<!--自动登录挽留-->
+<resid type="XML" name="IDR_DUI_LOGIN_RETENTION_DIALOG" layer="1" file="xml\dlg_login_retention.xml"/>
+<!--文件夹自动备份-->
+<resid type="XML" name="IDR_DUI_AUTOBACKUP_DIALOG" layer="1" file="xml\AutoBackupDlg\AutoBackupDlg.xml"/>
+<resid type="XML" name="IDR_DUI_AUTOBACKUP_VIEW_PANEL" file="xml\AutoBackupDlg\AutoBackupViewPanel.xml"/>
 <!--窗口背景资源-->
 <resid type="IMGX" name="IDP_MAIN_DLG_FRAME" file="image\common\window\windowBkg.png"  />
 <resid type="IMGX" name="IDP_MESSAGEBOX_BACKGROUND_FRAME" file="image\common\window\MsgBxBk_New.png"  />
@@ -471,12 +478,6 @@
 <!--用户引导相关资源-->
 <resid type="IMGX" name="IDP_DLG_TITLE_BACKGROUND"   file="image\UserGuidePanel\account_abnormal_bg.png" />
 <resid type="IMGX" name="IDP_DLG_ATTENTION"   file="image\UserGuidePanel\abnormal_icon_attention.png" />
-
-<!--文档历史版本开通会员引导相关资源-->
-<resid type="IMGX" name="IDP_DLG_FILEVERSION_VIP_IMG"   file="image\FileVersionVipGuideDlg\fileversion_vip_img.png" />
-
-<!--开启文档历史版本引导对话框相关资源-->
-<resid type="IMGX" name="IDP_DLG_FILEVERSION_VIP_BGSKIN"   file="image\FileVersionVipGuideDlg\fileversion_vip_bg.png" />
 
 <!--隐藏空间容量vip引导对话框相关资源-->
 <resid type="IMGX" name="IDP_DLG_SAFEBOX_QUOTA_VIP_IMG"   file="image\SafeboxQuotaVipGuideDlg\vip_img.png" />
@@ -899,4 +900,25 @@
 
 <!--批量创建分享链接-->
 <resid type="IMGX" name="IDP_IMG_SHARE_BATCH_LINK_GUIDE_BKG" file="image\MainPanel\SharePanel\BatchLinkGuideBkg.png" />
+
+<!--文件夹自动备份-->
+<resid type="IMGX" name="IDP_IMG_AUTO_BACKUP_WHITE_BUTTON" file="image\AutoBackupDlg\AutoBackupWhiteBtn.png"/>
+<resid type="IMGX" name="IDP_IMG_AUTO_BACKUP_RED_BUTTON" file="image\AutoBackupDlg\AutoBackupOpenSvipBtn.png"/>
+<resid type="IMGX" name="IDP_IMG_AUTO_BACKUP_BLUE_BUTTON" file="image\AutoBackupDlg\AutoBackupBlueBtn.png"/>
+<resid type="IMGX" name="IDP_IMG_AUTO_BACKUP_BUTTON_FRAME" file="image\AutoBackupDlg\AutoBackupButtonFrame.png"/>
+<resid type="IMGX" name="IDP_IMG_AUTO_BACKUP_FUNCTION" file="image\AutoBackupDlg\AutoBackupFunction.png"/>
+<resid type="IMGX" name="IDP_IMG_AUTO_BACKUP_QUOTA_WARN_ICON" file="image\AutoBackupDlg\AutoBackupQuotaWarningIcon.png"/>
+<resid type="IMGX" name="IDP_IMG_AUTO_BACKUP_ICON_LOCATE" file="image\AutoBackupDlg\AutoBackupIconLocate.png"/>
+<resid type="IMGX" name="IDP_IMG_AUTO_BACKUP_ICON_SETTING" file="image\AutoBackupDlg\AutoBackupIconSetting.png"/>
+<resid type="IMGX" name="IDP_IMG_AUTO_BACKUP_ICON_DELETE" file="image\AutoBackupDlg\AutoBackupIconDelete.png"/>
+<resid type="IMGX" name="IDP_IMG_AUTO_BACKUP_PROGRESS_WHITE" file="image\AutoBackupDlg\AutoBackupProgressWhite.png"/>
+<resid type="IMGX" name="IDP_IMG_AUTO_BACKUP_PROGRESS_GRAY" file="image\AutoBackupDlg\AutoBackupProgressGray.png"/>
+<!--设备登录限制-->
+<resid type="IMGX" name="IDP_LOGINDEVICESTATUS_DLG_BIG_SLN_BKG" file="image\LoginDeviceStatusDlg\big_head_sln_bkg.png"/>
+<resid type="IMGX" name="IDP_LOGINDEVICESTATUS_DLG_SMALL_SLN_BKG" file="image\LoginDeviceStatusDlg\small_head_sln_bkg.png"/>
+<resid type="IMGX" name="IDP_LOGINDEVICESTATUS_DLG_QUESTION" file="image\LoginDeviceStatusDlg\question.png"/>
+<resid type="IMGX" name="IDP_LOGINDEVICESTATUS_DLG_BLUE_BTN" file="image\LoginDeviceStatusDlg\blue_btn.png"/>
+<resid type="IMGX" name="IDP_LOGINDEVICESTATUS_DLG_HEAD_FRAME" file="image\LoginDeviceStatusDlg\head_frame.png"/>
+<resid type="IMGX" name="IDP_LOGINDEVICESTATUS_DLG_ARROW_BTN" file="image\LoginDeviceStatusDlg\arrow_btn.png"/>
+<resid type="IMGX" name="IDP_LOGINDEVICESTATUS_DLG_RETURN_BTN" file="image\LoginDeviceStatusDlg\return_btn.png"/>
 
