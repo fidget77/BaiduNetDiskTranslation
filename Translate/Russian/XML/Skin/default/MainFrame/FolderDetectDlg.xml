@@ -13,15 +13,15 @@
 									</bkground>
 								</Properties>
 							</IBDGuiCell>
-							<IBGStaticEx name="title_name" textClr="0x333333" text="$2708" autoCalcHeight="true" autoCalcWidth="true" margin="7, 9, 0, 5" dock="DOCK_LEFT">
+							<IBGStaticEx name="title_name" textClr="0x333333" text="$2722" autoCalcHeight="true" autoCalcWidth="true" margin="7, 9, 0, 5" dock="DOCK_LEFT">
 							</IBGStaticEx>
 						</Children>
 					</IBGRegionPanel>
 					<!-- 图片区域 -->
 					<IBGRegionPanel name="DetectProgressPanel" size="414, 113" margin="0,0,0,0" dock="DOCK_TOP">
 						<Children>
-							<IBGStaticEx autoCalcHeight="true" autoCalcWidth="true" textClr="0x333333" text="$2709" margin="40, 24, 0, 0" dock="DOCK_TOP" config="DetectDlgStatic"/>
-							<IBGStaticEx autoCalcHeight="true" autoCalcWidth="true" textClr="0x666666" text="$2710" margin="40, 2, 0, 0" dock="DOCK_TOP"/>
+							<IBGStaticEx autoCalcHeight="true" autoCalcWidth="true" textClr="0x333333" text="$2723" margin="40, 24, 0, 0" dock="DOCK_TOP" config="DetectDlgStatic"/>
+							<IBGStaticEx autoCalcHeight="true" autoCalcWidth="true" textClr="0x666666" text="$2724" margin="40, 2, 0, 0" dock="DOCK_TOP"/>
 						</Children>
 					</IBGRegionPanel>
 					<!-- 底部区域 -->

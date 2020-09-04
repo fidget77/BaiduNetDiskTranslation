@@ -44,13 +44,13 @@
                   </textFont>
                 </Properties>
               </IBGStaticEx>
-              <IBGStaticEx name="backupTipFileName" size="100,20" textClr="0x999999" endEllipsis="true" margin="0,0,0,0" dock="DOCK_LEFT">
+              <IBGStatic color="0x999999" colorHilight="0x999999" colorPushed="0x999999" name="backupTipFileName" size="100,20" endEllipsis="true" margin="0,0,0,0" dock="DOCK_LEFT">
                 <Properties>
                   <textFont>
                     <IBGFont height="18" />
                   </textFont>
                 </Properties>
-              </IBGStaticEx>
+              </IBGStatic>
               <IBGStaticEx name="backupTipEnd" autoCalcHeight="true" autoCalcWidth="true" textClr="0x999999" endEllipsis="true" margin="0,0,0,0" dock="DOCK_LEFT">
                 <Properties>
                   <textFont>

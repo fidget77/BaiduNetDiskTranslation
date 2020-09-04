@@ -435,11 +435,11 @@
   <String id="IDS_STATIC_APP_IS_RUNNING" value="Baidu NetDisk работает" />
   <String id="IDS_STATIC_APP_ALREADY_RUN" value="Baidu NetDisk уже работает" />
   <String id="IDS_STATIC_LOGIN_OTHERACCOUNT" value="Войдите, используя другой аккаунт" />
-  <String id="IDS_STATIC_OTHER_LOGIN_WAY" value="Войти через" />
+  <String id="IDS_STATIC_OTHER_LOGIN_WAY" value="Авторизация" />
   <String id="IDS_THIRDLOGINDLG_LOGIN_FAIL" value="Сеть занята, попробуйте позже" />
   <String id="IDS_THIRDLOGINDLG_BTN_RETRY" value="Повторить" />
   <String id="IDS_THIRDLOGINDLG_BTN_CANCEL" value="Отмена" />
-  <String id="IDS_THIRDLOGINDLG_TITLE" value="Войти через" />
+  <String id="IDS_THIRDLOGINDLG_TITLE" value="Авторизация" />
   <String id="IDS_THIRDLOGINDLG_SINAWEIBO_LOGIN" value="Вход в Weibo" />
   <String id="IDS_THIRDLOGINDLG_RENREN_LOGIN" value="Renren логин" />
   <String id="IDS_THIRDLOGINDLG_QQ_LOGIN" value="QQ Войти" />
@@ -1298,7 +1298,7 @@
   <String id="IDS_REMOTE_DOWNLOAD_STATIC_SUCCESS_INTRODUCTION" value="Текст, отправленный с мобильного телефона, успешно получен" />
   <String id="IDS_REMOTE_DOWNLOAD_STATIC_SUCCESS_OTHER_INTRODUCTION" value="Файл, отправленный на другом конце, был успешно получен" />
   <String id="IDS_REMOTE_DOWNLOAD_NOTIFY_START_VIEW_DETAIL" value="Проверить прогресс>" />
-  <String id="IDS_REMOTE_DOWNLOAD_NOTIFY_SUCCEED_VIEW_DETAIL" value="Смотри сейчас>" />
+  <String id="IDS_REMOTE_DOWNLOAD_NOTIFY_SUCCEED_VIEW_DETAIL" value="Попробовать сейчас>" />
 
 
 </StringTable>
