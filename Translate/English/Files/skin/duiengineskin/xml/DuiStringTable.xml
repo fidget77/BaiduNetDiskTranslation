@@ -393,7 +393,7 @@
   <s id="832">Upgrade to Super member</s>
   <s id="833">Please input the compressed package password</s>
   <s id="834">Temporary does not support the decompression of such file, please download to view later</s>
-  <s id="835">The compressed package is too large, greater than 8G, you can download to view later</s>
+  <s id="835">The compressed package exceeds the maximum decompression size, you can download it and view it</s>
   <s id="836">Compressed package password</s>
   <s id="837">OK</s>
   <s id="838">Please enter the password</s>
@@ -1228,36 +1228,14 @@
   <s id="3430">Special note: due to factors such as the network environment and file attributes, some files cannot enter this transmission channel and gain acceleration.</s>
   <s id="3431">Turn on download speedup</s>
 
-    <!--Document Preview Function-->
-  <s id="3450">View the document</s>
-  <s id="3451">This file type is not supported, you can view it after downloading </s>
-  <s id="3452">Download</s>
-  <s id="3453">Network failure</s>
-  <s id="3454">Replay</s>
-
-  <!--Functional Treasure Chest-->
+  <!--Function treasure chest-->
   <s id="3435">Equipment management</s>
-  <s id="3436">Manage login devices to protect account security </s>
-    
- <!--Scan code to open file dialog-->
-  <s id="3500">Mobile phone scan code to view</s>
-  <s id="3501">Scan and view on mobile phone</s>
-  <s id="3502">turn on</s>
-  <s id="3503">File size：%s</s>
-  <s id="3504">Network connection failed</s>
-  <s id="3505">Connection failed</s>
-  <s id="3506">Click retry</s>
-  <s id="3507">Loading...</s>
-  <s id="3508"> Baidu SkyDriveAPP </s>
-  <s id="3509">scan it</s>
-  <s id="3510">Currently does not support computer online preview，</s>
-  <s id="3511">Please use your mobile phone to scan or download and view</s>
-  <s id="3512">(Please use 10.1.60 and above)</s>
-
+  <s id="3436">Manage login devices to protect account security</s>
+  
   <!--Batch share links-->
   <s id="3437">You set a limit on the number of visitors, and the number of visitors per link is limited to %d</s>
   <s id="3438">Number of links created</s>
-  <s id="3439">Can enter 1-10</s>
+  <s id="3439">Can be entered1-10A</s>
   <s id="3440">At least 1 link must be filled in</s>
   <s id="3441">You have not filled in the number of links</s>
   <s id="3442">You can only create up to 10 links</s>
@@ -1266,5 +1244,122 @@
   <s id="3445">Create bulk links</s>
 
 
+    <!--Document Preview Function-->
+  <s id="3450">View the document</s>
+  <s id="3451">This file type is not supported, you can view it after downloading </s>
+  <s id="3452">Download</s>
+  <s id="3453">Network failure</s>
+  <s id="3454">Replay</s>
+
+  <!--Scan code to open file dialog-->
+  <s id="3500">Mobile phone scan code to view</s>
+  <s id="3501">Scan and view on mobile phone</s>
+  <s id="3502">turn on</s>
+  <s id="3503">File size：%s</s>
+  <s id="3504">Network connection failed</s>
+  <s id="3505">Connection failed</s>
+  <s id="3506">Click retry</s>
+  <s id="3507">Loading...</s>
+  <s id="3508"> Baidu Net Disk APP </s>
+  <s id="3509">scan it</s>
+  <s id="3510">Currently does not support computer online preview，</s>
+  <s id="3511">Please use your mobile phone to scan or download and view</s>
+  <s id="3512">(Please use 10.1.60 and above)</s>
+ 
+  <!--Automatic folder backup-->
+  <s id="3520">Automatic folder backup</s>
+  <s id="3522">Files in the designated folder on the computer will be backed up to the network disk</s>
+  <s id="3523">New files and modified files will be automatically backed up</s>
+  <s id="3524">Delete computer files, network disk files will not be deleted</s>
+  <s id="3525">Unlimited backup for members/super members, 10G monthly upload traffic for non-members</s>
+  <s id="3526">Turn on folder backup</s>
+  <s id="3527">Local folders will be automatically backed up to the network disk</s>
+  <s id="3528">Number of folders that can be synchronized：%d A</s>
+  <s id="3529">File size that can be backed up this month：%s</s>
+  <s id="3531">You enjoy unlimited privileges of automatic backup</s>
+  
+  <s id="3532">Traffic used this month</s>
+  <s id="3533">0G/10G</s>
+  <s id="3534">Unlimited membership backup></s>
+  <s id="3535">Folder backed up（%d/5）</s>
+  <s id="3536">View backup progress度></s>
+  <s id="3537">+addAdd backup file夹</s>
+  <s id="3538">(Save the latest 100 document versions)</s>
+  <s id="3539">Dear member, you can enjoy unlimited folder automatic backup</s>
+  <s id="3540">Dear Super Member, you can enjoy unlimited folder automatic backup</s>
+
+  <s id="3541">The network disk will back up</s>
+  <s id="3542">Selected computer folder</s>
+  <s id="3543">New and modified files</s>
+  <s id="3544">Updates will be uploaded automatically</s>
+  <s id="3545">Local file is deleted</s>
+  <s id="3546">Netdisk files are still retained</s>
+  <s id="3547">Support up to 5 folders</s>
+  <s id="3548">Remove backup folder</s>
+  <s id="3549">After removal, the folder cannot be automatically backed up to the network disk. In order to avoid file loss, it is recommended to turn on the backup~ The previously backed up files are still saved to the cloud and will not be deleted</s>
+  <s id="3550">Remove</s>
+  <s id="3551">Hidden space is not supported</s>
+  <s id="3552">Membership activation></s>
+  <s id="3553">Members can enjoy the privilege of document history version</s>
+  <s id="3554">Super members can enjoy the privilege of document history version</s>
+  <s id="3555">Back up now</s>
+
+  <s id="3556">Select folder</s>
+  <s id="3557">After the synchronization is successful, you can“</s>
+  <s id="3558">”View the file in</s>
+  <s id="3559">Modify path></s>
+  <s id="3560">/From: local computer</s>
+  <s id="3561">Select the folder to backup</s>
+
+  <s id="3562">Open the storage location of the network diskSet</s>
+  <s id="3563">Modify the storage location of the network disk</s>
+  <s id="3564">Remove backup folder</s>
+  <s id="3565">Save the latest update%dDocument version, no longer have to worry about document coverage</s>
+  <s id="3566">Open now and enjoy the privilege of unlimited backup files~</s>
+  <s id="3567">New upgrade of automatic folder backup! 10G backup traffic per month, convenient to check frequently used files on the computer at any time.</s>
+  <s id="3568">New upgrade of automatic folder backup! Unlimited backup, convenient to view frequently used files on the computer at any time</s>
+  <s id="3569">The local folder you backed up“%s”It has been deleted and cannot be backed up. The previously backed up files are still saved to the cloud。</s>
+  <s id="3570">The local folder you backed up“%s”Wait %d Folders have been deleted and cannot be backed up. The previously backed up files are still saved to the cloud.</s>
+
+  <!--Automatic login retention-->
+  <s id="3650">system hint</s>
+  <s id="3651">Are you sure you want to turn off automatic login?</s>
+  <s id="3652">No need to enter the password again, automatically log in to the account, convenient and quick</s>
+  <s id="3653">determine</s>
+  <s id="3654">Not for now</s>
+
+  <!--Device login restrictions-->
+  <s id="3700">sign out</s>
+  <s id="3701">The login device has exceeded the limit</s>
+  <s id="3702">After setting the main device, you can log in to another device to increase to%dstation</s>
+  <s id="3703">For your data privacy and security, you can log in at most at the same time%dEquipment</s>
+  <s id="3704">Dear super member, you can log in at most at the same time%dDevice privileges</s>
+  <s id="3705">Open the latest version</s>
+  <s id="3706">Baidu Netdisk APP</s>
+  <s id="3707">"My-Settings-Device Management" operation</s>
+  <s id="3708">You can also：</s>
+  <s id="3709">Did not unlock after operation?</s>
+  <s id="3710">Click me to refresh</s>
+  <s id="3711">Log out the logged-in device with the main device</s>
+  <s id="3712">Log out of some logged-in devicesPrepare</s>
+  <s id="3713">View login device</s>
+  <s id="3714">Open super member login%dEquipment</s>
+  <s id="3715">Super members can also enjoy a large space、</s>
+  <s id="3716">Privileges such as fast downloading and online decompression</s>
+  <s id="3717">The system has detected that your account may currently pose a security risk</s>
+  <s id="3718">To verify</s>
+  <s id="3719">return</s>
+  <s id="3720">Account protection has been turned on for you</s>
+  <s id="3721">Your account has been unblocked, please log in again to use</s>
+  <s id="3722">All your related devices need to log in again~</s>
+  <s id="3723">For your data privacy and security, please regulate the use of Baidu Netdisk account</s>
+  <s id="3724">Go to login</s>
+  <s id="3725">The appeal has been accepted, and it is expected that the review and processing will be completed within 64d hours</s>
+  <s id="3726">You can use the following methods to log in to the new device：</s>
+  <s id="3727">Baidu Netdisk</s>
+  <s id="3728">Only count the number of devices that simultaneously log in to the account on iOS, Android, iPad, Mac, Linux, and Windows. After binding the main device, there are up to 6 ordinary users and 10 super members.</s>
+    
+  <!--Fast file transfer-->
+  <s id="3750">Fast transfer</s>
 
 </string>

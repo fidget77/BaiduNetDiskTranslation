@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- baseid = 1024-->
 <!-- ZloiSupport translation, based translation John Wayne -->
-<!-- 01-may-2020 -->
+<!-- Update 04-September-2020 -->
 <StringTable language="2052">
   <String id="IDS_STANDARDWIN_CLOSE" value="Close" />
   <String id="IDS_STANDARDWIN_MAX" value="Maximise" />
@@ -337,7 +337,7 @@
   <String id="IDS_ERRORTIP_UP_FAIL" value="Upload failed" />
   <String id="IDS_ERRORTIP_FILE_TOO_BIG" value="4GB max limit" />
   <String id="IDS_ERRORTIP_FILE_SUPER_BIG" value="Exceed%dGlimit" />
-  <String id="IDS_ERRORTIP_FILE_TOO_BIG_MERMBER" value="Upload failed, maximum file size is limited to 20GB" />
+  <String id="IDS_ERRORTIP_FILE_TOO_BIG_MERMBER" value="Upload failed, exceeding the maximum uploadable size" />
   <String id="IDS_ERRORTIP_SPACE_NOT_ENOUGH" value="Cloud space shortage" />
   <String id="IDS_ERRORTIP_SAFEBOXSPACE_NOT_ENOUGH" value="Safe Box space not enough" />
   <String id="IDS_ERRORTIP_FILE_PATH_INVALID" value="Local file path does not exist or is illegal" />
@@ -793,7 +793,7 @@
   <String id="IDS_BACKUPLISTDLG_DELETE_TIP" value="Delete" />
   <String id="IDS_BACKUPLISTDLG_VIP_USER_TIP" value="Dear member users, you can enjoy unlimited automatic folder backup~" />
   <String id="IDS_BACKUPLISTDLG_SVIP_USER_TIP" value="Dear super member users, you can enjoy unlimited privileges for automatic folder backup traffic ~" />
-  <String id="IDS_BACKUPLISTDLG_REGULAR_USER_TIP" value="You can use the automatic backup folder function to back up up to 2G files per month." />
+  <String id="IDS_BACKUPLISTDLG_REGULAR_USER_TIP" value="You can use the automatic folder backup function, up to 10G files per month." />
   <String id="IDS_BACKUPLISTDLG_REGULAR_USER_GUIDE_TIP" value="Open member automatic backup unlimited" />
   <String id="IDS_BACKUPLISTDLG_REGULAR_USER_BUY_VIP" value="Open now>" />
   <String id="IDS_BACKUPLISTDLG_REGULAR_USER_QUOTA_TIP" value="Used data this month：" />
@@ -1234,18 +1234,18 @@
   <String id="IDS_AUTOBACKUP_NOTIFY_FILE_OCCUPIED_FAIL_SINGLE_END_TIP" value="”Backup not yet completed" />
   <String id="IDS_AUTOBACKUP_NOTIFY_FILE_OCCUPIED_FAIL_VIEW_DETAIL" value="View now>" />
   <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_FAIL_TITLE" value="Traffic exceeds limit, backup fails" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_FAIL_START_TIP" value="This month, 2G backup traffic has been used up, membership activation, and backup" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_FAIL_START_TIP" value="This month, 10G backup traffic has been used up, membership activation, and backup" />
   <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_FAIL_END_TIP" value="Unlimited" />
   <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_FAIL_VIEW_DETAIL" value="Open now>" />
   <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_TITLE" value="This month's automatic backup traffic is about to run out" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_START_TIP" value="This month's 2G backup traffic is about to run out and will not be able to back you up normally" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_START_TIP" value="This month's 10G backup traffic is about to run out and will not be able to back you up normally" />
   <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_END_TIP" value="Files, open membership, unlimited backup files" />
   <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_NOT_ENOUGH_VIEW_DETAIL" value="Open now>" />
   <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_EXCEED_LIMIT_TITLE" value="Traffic exceeds limit, automatic backup has been suspended" />
-  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_EXCEED_LIMIT_START_TIP" value="This month, 2G backup traffic has exceeded the limit and file backup cannot be performed，" />
+  <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_EXCEED_LIMIT_START_TIP" value="This month, 10G backup traffic has exceeded the limit and file backup cannot be performed，" />
   <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_EXCEED_LIMIT_END_TIP" value="Open member, unlimited backup files" />
   <String id="IDS_AUTOBACKUP_NOTIFY_QUOTA_EXCEED_LIMIT_VIEW_DETAIL" value="Open now>" />
-
+  <String id="IDS_AUTOBACKUP_NOTIFY_FAIL_RETRY" value="Retry>" />
   <!--PDF转Word气泡-->
   <String id="IDS_PDFTOWORD_NOTIFY_SUCCEED_TITLE" value="Conversion succeeded" />
   <String id="IDS_PDFTOWORD_NOTIFY_SUCCEED_START_TIP" value="Successfully converted to Word document“" />
@@ -1283,5 +1283,24 @@
    <String id="IDS_P2P_SVIP_SPEEDUP_SLOW_TIP" value="SVIPSpeeding up link acquisition..."/>
    <String id="IDS_HELP_EACHOTHER_CLOSE" value="Go close" />
    <String id="IDS_HELP_EACHOTHER_OPEN" value="Go to open" />
+
+   <!--New version of automatic backup-->
+  <String id="IDS_AUTOBACKUP_GUIDE_TIP" value="No need to upload manually! Turn on automatic folder backup to view frequently used files on your computer anytime, anywhere." />
+  <String id="IDS_AUTOBACKUP_GUIDE_TIP_BTN" value="Go see" />
+    
+  <!--Cross-terminal transmission path setting-->
+  <String id="IDS_SETTING_STATIC_TEXT_TRANSFERDIR" value=" Fast file transfer location selection:" />
+  <String id="IDS_SETTING_STATIC_TEXT_TRANSFER_DEFAULTDIR" value="Fast file transfer" />
+  <String id="IDS_REMOTE_DOWNLOAD_STATIC_START" value="Sending..." />
+  <String id="IDS_REMOTE_DOWNLOAD_STATIC_START_INTRODUCTION" value="Received the file from the mobile phone and started downloading" />
+  <String id="IDS_REMOTE_DOWNLOAD_STATIC_START_OTHER_INTRODUCTION" value="Received the file sent from the other end and started downloading" />
+  <String id="IDS_REMOTE_DOWNLOAD_STATIC_FAIL" value="Transmission failed" />
+  <String id="IDS_REMOTE_DOWNLOAD_STATIC_FAIL_INTRODUCTION" value="Transmission failed, please try again on your phone or page" />
+  <String id="IDS_REMOTE_DOWNLOAD_STATIC_SUCCESS" value="Successfully transmitted" />
+  <String id="IDS_REMOTE_DOWNLOAD_STATIC_SUCCESS_INTRODUCTION" value="The file sent by the phone has been successfully received" />
+  <String id="IDS_REMOTE_DOWNLOAD_STATIC_SUCCESS_OTHER_INTRODUCTION" value="The file sent by the other end has been successfully received" />
+  <String id="IDS_REMOTE_DOWNLOAD_NOTIFY_START_VIEW_DETAIL" value="View progress>" />
+  <String id="IDS_REMOTE_DOWNLOAD_NOTIFY_SUCCEED_VIEW_DETAIL" value="View now>" />
+
 
 </StringTable>
