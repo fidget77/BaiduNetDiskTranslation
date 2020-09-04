@@ -360,8 +360,6 @@
         <!--账号引导面板相关定义-->
         <imgframe name="title_bkskin" src="IDP_DLG_TITLE_BACKGROUND" />
         <imgframe name="attention_bkskin" src="IDP_DLG_ATTENTION" />
-        <imgframe name="fileversion_vip_guide_bkskin" src="IDP_DLG_FILEVERSION_VIP_IMG" />
-        <imgframe name="fileversion_svip_enable_guide_bkskin" src="IDP_DLG_FILEVERSION_VIP_BGSKIN" left="2" top="2" right="2" bottom="2"/>
         <imgframe name="safebox_quota_vip_guide_bkskin" src="IDP_DLG_SAFEBOX_QUOTA_VIP_IMG" />
         <imgframe name="safebox_quota_svip_guide_bkskin" src="IDP_DLG_SAFEBOX_QUOTA_SVIP_IMG" />
         <imgframe name="pdf_to_word_vip_guide_bkskin" src="IDP_DLG_PDF_TO_WORD_VIP_GUIDE_IMG" />
@@ -759,7 +757,7 @@
         <imgframe name="funcguidewnd_bg" src="IDP_FUNCGUIDEWND_BG"/>
 
         <!--自动备份-->
-        <imgframe name="autobackuptipdlg_bg" src="IDP_AUTOBACKUPTIP_DLG_BG"/>
+        <imgframe name="autobackuptipdlg_bg" src="IDP_AUTOBACKUPTIP_DLG_BG" left="2" right="54" top="2" bottom="2"/>
         <imglst name="autobackuptipdlg_close_btn" src="IDP_AUTOBACKUPTIP_DLG_CLOSE" subwidth="8"/>
 
         <!--互助提速功能-->
@@ -775,6 +773,29 @@
 
         <!--批量创建分享链接-->
         <imgframe name="share_batch_link_guide_bkg" src="IDP_IMG_SHARE_BATCH_LINK_GUIDE_BKG"/>
+
+        <!--文件夹自动备份-->
+        <imgframe name="auto_backup_white_btn" src="IDP_IMG_AUTO_BACKUP_WHITE_BUTTON" subwidth="238"/>
+        <imgframe name="auto_backup_red_btn" src="IDP_IMG_AUTO_BACKUP_RED_BUTTON" subwidth="200"/>
+        <imgframe name="auto_backup_blue_btn" src="IDP_IMG_AUTO_BACKUP_BLUE_BUTTON" subwidth="206"/>
+        <imgframe name="auto_backup_btn_frame" src="IDP_IMG_AUTO_BACKUP_BUTTON_FRAME"/>
+        <imgframe name="auto_backup_function_img" src="IDP_IMG_AUTO_BACKUP_FUNCTION"/>    
+        <imgframe name="auto_backup_quota_warn_icon" src="IDP_IMG_AUTO_BACKUP_QUOTA_WARN_ICON"/>
+        <imgframe name="auto_backup_icon_locate" src="IDP_IMG_AUTO_BACKUP_ICON_LOCATE" subwidth="15"/>
+        <imgframe name="auto_backup_icon_setting" src="IDP_IMG_AUTO_BACKUP_ICON_SETTING" subwidth="16"/>
+        <imgframe name="auto_backup_icon_delete" src="IDP_IMG_AUTO_BACKUP_ICON_DELETE" subwidth="16"/>
+        <imgframe name="auto_backup_progress_white" src="IDP_IMG_AUTO_BACKUP_PROGRESS_WHITE" left="2" right="2" top="2" bottom="2"/>
+        <imgframe name="auto_backup_progress_gray" src="IDP_IMG_AUTO_BACKUP_PROGRESS_GRAY" left="2" right="2" top="2" bottom="2"/>     
+
+      <!--设备登录限制-->
+        <imgframe name="logindevicestatus_dlg_big_sln_bkg" src="IDP_LOGINDEVICESTATUS_DLG_BIG_SLN_BKG"/>
+        <imgframe name="logindevicestatus_dlg_small_sln_bkg" src="IDP_LOGINDEVICESTATUS_DLG_SMALL_SLN_BKG"/>
+        <imgframe name="logindevicestatus_dlg_question" src="IDP_LOGINDEVICESTATUS_DLG_QUESTION"/>
+        <imgframe name="logindevicestatus_dlg_blue_btn" src="IDP_LOGINDEVICESTATUS_DLG_BLUE_BTN"/>
+        <imgframe name="logindevicestatus_dlg_arrow_btn" src="IDP_LOGINDEVICESTATUS_DLG_ARROW_BTN"/>
+        <imgframe name="logindevicestatus_dlg_return_btn" src="IDP_LOGINDEVICESTATUS_DLG_RETURN_BTN"/>
+        <imgframe name="logindevicestatus_dlg_head_frame" src="IDP_LOGINDEVICESTATUS_DLG_HEAD_FRAME"/>
+
     </skins>
 
     <style>
@@ -915,8 +936,9 @@
 
         <!--自动备份升级style定义-->
         <class name="backup_unlock_dlg_link" crtext="438af7" font="0002:微软雅黑" textmode="40025" cursor="hand"/>
-
-        <!--云解压style定义-->
+        <class name="autobackup_active_btn" skin="auto_backup_blue_btn" crtext="ffffff" font="0800:微软雅黑" textmode="40025" cursor="arrow"/>
+      
+      <!--云解压style定义-->
         <class name="passwordinputdlg_confirm_text" skin="btn_default" crtext="ffffff" crdisabled="ffffff" cursor="arrow" font="0200:微软雅黑" textmode="25"/>
         <class name="compresspackage_filename_link" font="0000:微软雅黑" hoverfont="0002:微软雅黑" crtext="333333" cursor="hand" crhover="757880" textmode="40824"/>
         <class name="compresspackage_font_lightdark" font="0000:微软雅黑" crtext="999999" cursor="arrow" textmode="25"/>
@@ -1017,7 +1039,19 @@
         <!--手机查看文件-->
         <class name="cls_file_qrcode_dlg_big_text" crtext="333333" font2="facename:微软雅黑;bold:1;italic:0;underline:0;adding:10"/>
         <class name="cls_file_qrcode_dlg_middle_text" crtext="999999" font2="facename:微软雅黑;bold:0;italic:0;underline:0;adding:2"/>
-		<class name="cls_file_qrcode_dlg_link" cursor="hand" crtext="06a8ff" crhover="06a8ff" font="0200:微软雅黑" hoverfont="0202:微软雅黑"/>
+		    <class name="cls_file_qrcode_dlg_link" cursor="hand" crtext="06a8ff" crhover="06a8ff" font="0200:微软雅黑" hoverfont="0202:微软雅黑"/>
+
+        <!--自动登录挽回-->
+        <class name="login_retention_dlg_confirm_btn" skin="btn_common" font="0200:微软雅黑" crtext="333333" textmode="25"/>
+        <class name="login_retention_dlg_retent_btn" crtext="ffffff" crdisabled="ffffff" skin="btn_login" font="0200:微软雅黑" textmode="25"/>
+
+        <!--设备登录限制-->
+        <class name="cls_login_device_status_dlg_gray_link" cursor="hand" crtext="666665" crhover="0fabfe" font="0002:微软雅黑" hoverfont="0002:微软雅黑"/>
+        <class name="cls_login_device_status_dlg_big_text" crtext="0fabfe" font2="facename:微软雅黑;bold:1;italic:0;underline:0;adding:16"/>
+        <class name="cls_login_device_status_dlg_middle_text" crtext="000000" font2="facename:微软雅黑;bold:0;italic:0;underline:0;adding:6"/>
+        <class name="cls_login_device_status_dlg_small_text" crtext="0fabfe" font2="facename:微软雅黑;bold:1;italic:0;underline:0;adding:2"/>
+        <class name="cls_login_device_status_dlg_blue_link" cursor="hand" crtext="0fabfe" crhover="0fabfe" font2="facename:微软雅黑;bold:1;italic:0;underline:1;adding:2"/>
+
     </style>
 
     <objattr>

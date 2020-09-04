@@ -1,4 +1,4 @@
-﻿<layer name="FileVersionVipGuideDlg"  width="504" height="320" appwin="0" ncRect="0,0,0,0"  resize="0" translucent="1"  nomaxsize="0">
+﻿<layer name="FileVersionVipGuideDlg"  width="420" height="240" appwin="0" ncRect="0,0,0,0"  resize="0" translucent="1"  nomaxsize="0">
   <body>
     <dlg pos="0,0,-0,-0" class="cls_dlg_frame">
       <caption pos="0,0,-0,38">
@@ -6,13 +6,11 @@
         <text name="dlg_title" pos="39,9" class="cls_dlg_title_text">%str830%</text>
         <imgbtn name="btn_close" skin="btn_sys_close" pos="-34,1,-2,21" cursor="arrow" tip="%str250%" animate="1"/>
       </caption>
-      <dlg pos="0,38,-0,-0">
-        <dlg pos="0,0,-0,-0">
-          <text name="text_content" pos="125,20" crtext="636363">%str1100%</text>
-          <img pos="12,55" skin="fileversion_vip_guide_bkskin" />
-        </dlg>
-        <imgbtn name="btn_buy_vip" pos="320,-40,400,-15" cursor="arrow" animate="1" class="redbgbtn">%str1100%</imgbtn>
-        <imgbtn name="btn_close" pos="410,-40,490,-15" cursor="arrow" class="msgboxbtn">%str26%</imgbtn>
+      <dlg pos="0,38,-0,-0">       
+        <text name="text_headline" pos="94,20" font="0600:微软雅黑" crtext="000000">%str3553%</text>
+        <text name="text_content" pos="50,[16" font="0100:微软雅黑" crtext="666666">%str3565%</text>
+        <text name="text_content2" pos="76,[4" font="0100:微软雅黑" crtext="666666">%str3566%</text>
+        <imgbtn name="btn_buy_vip" pos="110,-67,@200,@45" cursor="arrow" animate="1" font="0600:微软雅黑" skin="auto_backup_red_btn">%str830%</imgbtn>      
       </dlg>
     </dlg> 
   </body>

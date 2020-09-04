@@ -3,12 +3,12 @@
 		<Children>
 			<IBGRegionPanel name="panel_op" dock="DOCK_BOTTOM" size="210,24">
 				<Children>
-					<IBGStaticEx name="link_ignore" autoCalcHeight="true" autoCalcWidth="true" text="$2375" margin="10, 0, 0, 4" handCursor="true" dock="DOCK_LEFT">
+					<IBGStaticEx name="link_ignore" autoCalcHeight="true" autoCalcWidth="true" text="$2389" margin="10, 0, 0, 4" handCursor="true" dock="DOCK_LEFT">
 						<Children>
 							<IBGLinkItem config="linkItem" positionMode="true" position="0,-1"/>
 						</Children>
 					</IBGStaticEx>
-					<IBGStaticEx name="link_onekeybackup" autoCalcHeight="true" autoCalcWidth="true" text="$2376" margin="0, 0, 10, 4" handCursor="true" dock="DOCK_RIGHT">
+					<IBGStaticEx name="link_onekeybackup" autoCalcHeight="true" autoCalcWidth="true" text="$2390" margin="0, 0, 10, 4" handCursor="true" dock="DOCK_RIGHT">
 						<Children>
 							<IBGLinkItem config="linkItem" positionMode="true" position="0,-1"/>
 						</Children>
@@ -37,7 +37,7 @@
 							</downBkg>
 						</Properties>
 					</IBGButton>
-					<IBGStaticEx name="nmStaticTitle" text="$2974" dock="DOCK_FILL" endEllipsis="true" margin="1,5,0,0" textClr="0x333333">
+					<IBGStaticEx name="nmStaticTitle" text="$2988" dock="DOCK_FILL" endEllipsis="true" margin="1,5,0,0" textClr="0x333333">
 						<Properties>
 							<textFont>
 								<IBGFont weight="1000"/>

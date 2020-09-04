@@ -17,7 +17,7 @@
   <hr name="text_line" pos="30,128,-1,129" crbg="ededed"/>
   <dlg pos="0,133,-0,@38">
     <imgbtn name="btn_op_cloud" pos="0,0,-0,-0" skin="transpanel_left_cloud_btn" 
-            class="cls_transleftpanel_op_btn"  txtxoffset="55" show="0">%str1803%</imgbtn>
+            class="cls_transleftpanel_op_btn"  txtxoffset="55" show="0">%str3750%</imgbtn>
     <hr name="hr_line_cloud" pos="0,0,@3,-0" crbg="06a8ff" show="0"/>
   </dlg>
   <hr pos="-1,0,-0,-0" size="1" crbg="d6d8dd"/>
